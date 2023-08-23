@@ -1,0 +1,177 @@
+.sc22_program_structure {
+    text-align: center;
+    min-height: 700px;
+    position: relative;
+    /* background-color: #020122; */
+    /* z-index: -2; */
+}
+
+/* Program Structure Background Icon */
+.sc22_ps_bg_svg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -25%;
+    left: 0%;
+}
+
+/* Program Structure Background Icon */
+
+.sc22_ps_title {
+    color: #F64B42;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.sc22_ps_content {
+    width: 65%;
+    margin: 6rem auto;
+    position: relative;
+}
+
+.sc22_ps_content_overlay {
+    content: "";
+    width: 100.1%;
+    height: 90%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(2, 1, 34, 0.86) 15.42%, rgba(2, 1, 34, 0) 100%);
+    top: 10.1%;
+    left: 0%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* Table Design CSS Start */
+.sc22_tr {
+    background: #5038EA;
+    color: #fff;
+    font-size: 1.4rem;
+    border: none;
+}
+
+.sc22_th {
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none !important;
+}
+
+.sc22_td {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    border: none !important;
+}
+
+.sc22_tr_even {
+    background-color: #F64B42;
+}
+
+.sc22_ps_drop_img {
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    cursor: pointer !important;
+}
+
+/* Table Design CSS End */
+
+.sc22_ps_btn_download {
+    background: #5038EA;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    filter: drop-shadow(0px 3px 18px rgba(66, 49, 137, 0.45));
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Program Structure Background Icon */
+    .sc22_ps_bg_svg {
+        display: none;
+    }
+
+    /* Program Structure Background Icon */
+    .sc22_ps_content {
+        width: 60%;
+        margin: 6rem auto;
+        position: relative;
+    }
+
+    .sc22_ps_content_overlay {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .sc22_ps_content {
+        width: 95%;
+        margin: 4rem auto;
+        position: relative;
+    }
+
+    .sc22_ps_title {
+        font-size: 2rem;
+    }
+    
+
+    .sc22_ps_content_overlay {
+        display: none;
+    }
+
+    .sc22_tr {
+        font-size: 1rem;
+    }
+
+    .sc22_td {
+        font-size: 0.8rem;
+    }
+
+    .sc22_ps_btn_download {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .sc22_program_structure {
+        min-height: 650px;
+    }
+
+    .sc22_ps_content {
+        width: 99%;
+        margin: 2rem auto;
+        position: relative;
+    }
+
+    .sc22_ps_title {
+        font-size: 2rem;
+    }
+    
+    .sc22_ps_content_overlay {
+        content: "";
+        width: 100;
+        height: 82%;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(2, 1, 34, 0.86) 15.42%, rgba(2, 1, 34, 0) 100%);
+        top: 0%;
+        left: 0%;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        display: block;
+    }
+
+    .sc22_tr {
+        font-size: 0.9rem;
+    }
+
+    .sc22_td {
+        font-size: 0.6rem;
+    }
+}

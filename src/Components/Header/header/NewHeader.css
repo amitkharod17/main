@@ -1,0 +1,212 @@
+.nav_header {
+  border: calc(0 * var(--vp)) solid #707070;
+  opacity: 1;
+  padding: 15px calc(120 * var(--vp)) 15px calc(77 * var(--vp));
+  width: 100%;
+  background-color: #020122 !important;
+  display: flex !important;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif !important;
+  position: fixed;
+  z-index: 11;
+}
+
+.nav_header.olympiad_bg {
+  background-color: #12105E !important;
+}
+
+.mobile_olympiad_bg {
+  background-color: #12105E !important;
+}
+
+.nav_header .app-icon {
+  width: 100%;
+  object-fit: contain;
+}
+
+.nav_header .app-name {
+  text-align: center;
+  letter-spacing: calc(0 * var(--vp));
+  color: #ffffff;
+  margin-left: calc(-37 * var(--vp));
+  opacity: 1;
+  font: normal normal 500 calc(47 * var(--vp)) / calc(62 * var(--vp)) Roboto;
+  width: calc(354 * var(--vp));
+  height: calc(62 * var(--vp));
+}
+
+.nav_header .logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mobile CSS similar to @media all and (max-width: 600px) {
+      
+  } */
+
+.nav_header.mobile .app-icon {
+  width: 100%;
+  object-fit: contain;
+}
+
+.nav_header .logo {
+  width: 20%;
+}
+
+.nav_header.mobile .app-name {
+  text-align: center;
+  letter-spacing: calc(0 * var(--vm));
+  color: #ffffff;
+  margin-left: calc(-13 * var(--vm));
+  opacity: 1;
+  font-size: calc(20 * var(--vm));
+  width: calc(143 * var(--vm));
+  height: calc(26 * var(--vm));
+  line-height: initial;
+  text-transform: capitalize;
+}
+
+.nav_header.mobile {
+  padding: 30px 20px;
+  background: #020122 0% 0% no-repeat padding-box;
+}
+
+/* nav_header start */
+
+.nav_header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px!important;
+}
+
+.nav_header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+}
+
+.nav_header ul li a:hover {
+  color: none;
+}
+
+.nav_header ul li .login:hover {
+  color: #fff;
+}
+
+.nav_header ul li {
+  list-style: none;
+  color: #fff;
+  margin: 0px 1rem;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 550;
+}
+
+.nav_header ul li .free_class {
+  padding: 8px 30px;
+  background-color: #3cfaff;
+  color: #000;
+  border-radius: 25px;
+  margin-right: 12px;
+  font-family: 'Montserrat', sans-serif !important;
+  /* font-weight: 400; */
+}
+
+.nav_header ul li .team_register {
+  padding: 8px 40px;
+  background-color: #3cfaff;
+  color: #000;
+  border-radius: 25px;
+  margin-right: 12px;
+  font-family: 'Montserrat', sans-serif !important;
+  /* font-weight: 400; */
+  transition: all 0.5s;
+}
+
+.nav_header ul li .team_register:hover {
+  color: #000 !important;
+  opacity: 0.8;
+}
+
+.nav_header ul li .free_class:hover {
+  color: #000 !important;
+}
+
+.nav_header ul li .login {
+  padding: 6px 40px;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #3cfaff;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.nav_header ul li .team_login {
+  padding: 6px 30px;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #3cfaff;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.nav_header ul li .team_login:hover {
+  opacity: 0.8;
+}
+
+.nav_header .courses_dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.nav_header .courses_dropdown .courses_dropdown_content {
+  display: none;
+  /* border: 2px solid #3cfaff; */
+  /* padding: 10px 10px 10px 25px ; */
+  width: 150px;
+  height: 130px;
+  background-color: #fff;
+  position: absolute;
+  top: 130%;
+  left: -28%;
+  text-align: center;
+}
+
+.nav_header .courses_dropdown .courses_dropdown_content .dropdown_item {
+  display: block;
+  /* margin-top: 10px; */
+  padding: 5px 0px;
+  color: #000;
+}
+
+.nav_header .courses_dropdown .courses_dropdown_content .dropdown_item:nth-child(1) {
+  margin-top: 15px !important;
+}
+
+.nav_header .courses_dropdown .courses_dropdown_content .dropdown_item:hover {
+  color: #000 !important;
+  background-color: #3cfaff !important;
+}
+
+.showDropDown {
+  display: block !important;
+  z-index: 5;
+}
+
+/* nav_header end */
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .nav_header ul {
+    margin-bottom: 0px;
+  }
+  .nav_header ul li {
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .nav_header .logo {
+    width: 60%;
+  }
+}

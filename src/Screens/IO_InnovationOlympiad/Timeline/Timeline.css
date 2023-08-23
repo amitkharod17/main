@@ -1,0 +1,177 @@
+.timeline_section {
+    color: #fff;
+    /* background-color: #020122; */
+    padding: 5rem 0rem;
+}
+
+.timeline_section_title {
+    font-size: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px!important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.timeline_box {
+    display: flex;
+    width: 90%;
+    margin: 0 auto; 
+    padding: 1rem 2rem;
+}
+
+.timeline_box .timeline_box_left {
+    width: 50%;
+}
+
+.timeline_box_left .timeline_left_item {
+    border-left: 2px solid #fff;
+    padding: 20px 0px;
+}
+
+.timeline_box_left .timeline_left_item:nth-child(1) {
+    padding-top: 80px!important;
+}
+
+.timeline_box_left .timeline_left_item .timeline_item_title {
+    border-bottom: 2px solid #FFFFFF;
+    padding-left: 25px;
+    font-size: 2.5rem;
+    width: 80%;
+    color: #3CFAFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.timeline_box_left .timeline_left_item .timeline_item_title:hover {
+    color: #FFC700;
+    font-weight: 700;
+    font-size: 3rem;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+.timeline_box_left .timeline_left_item .timeline_item_subtitle,
+.timeline_box_left .timeline_left_item .timeline_item_deadline  {
+    padding-left: 25px;
+}
+
+.timeline_box_left .timeline_left_item .timeline_item_subtitle {
+    color: #A8A8A8;
+}
+
+.timeline_box_left .timeline_left_item .learn_more_text {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.timeline_box_left .timeline_left_item .learn_more_text:hover {
+    border: none;
+}
+
+.timeline_box .timeline_box_right {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.timeline_box_right .timeline_right_item {
+    background: linear-gradient(157.61deg, #4D5EFF 0%, rgba(23, 41, 194, 0.28) 100%);
+    border-radius: 15px;
+    color: #fff;
+    padding: 5rem 0rem;
+}
+
+.timeline_box_right .timeline_right_content {
+    height: 500px;
+}
+
+.timeline_box_right .timeline_right_title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.timeline_box_right .timeline_right_deadline {
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.active_timeline {
+    color: #FFC700!important;
+    font-weight: 700!important;
+    font-size: 3rem!important;
+    border-bottom: 5px solid #FFFFFF!important;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline_section_title {
+        font-size: 3rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .timeline_box {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto; 
+        padding: 1rem 2rem;
+    }
+    .timeline_box .timeline_box_left {
+        width: 100%;
+    }
+    .timeline_box .timeline_box_right {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .timeline_box_right .timeline_right_content {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline_section_title {
+        font-size: 2rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .timeline_box {
+        width: 100%;
+    }
+    .timeline_box .timeline_box_left {
+        width: 100%;
+    }
+    .timeline_box_left .timeline_left_item .timeline_item_title {
+        border-bottom: 2px solid #FFFFFF;
+        padding-left: 25px;
+        font-size: 2rem;
+        width: 95%;
+        color: #3CFAFF;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 600;
+        transition: all 0.5s;
+    }
+    .timeline_box .timeline_box_right {
+        width: 100%;
+        padding: 0rem;
+        margin-top: 2rem;
+    }
+    .timeline_box_right .timeline_right_title {
+        font-size: 2rem;
+    }
+    
+    .timeline_box_right .timeline_right_deadline {
+        font-size: 1.3rem;
+    }
+    
+    .timeline_box_left .timeline_left_item .timeline_item_title:hover {
+        font-size: 2.2rem;
+    }
+
+    .active_timeline {
+        font-size: 2.2rem!important;
+    }
+}

@@ -1,0 +1,170 @@
+.io_team_registration {
+    color: #fff;
+    padding-bottom: 8rem;
+    background-color: #020122;
+}
+
+.team_form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.team_form .team_registration_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 5rem 0rem;
+}
+
+.team_form .team_form_title {
+    margin: 5rem 0rem 3rem 0rem;
+}
+
+.team_form .form_label {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.team_form .team_form_input {
+    background-color: #5A6BFF !important;
+    width: 85%;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.team_form .team_form_input:focus {
+    border: 2px solid #7ef6fd;
+}
+
+.team_form .school_name_input {
+    width: 93%;
+}
+
+.team_form .form_submit_box {
+    text-align: center;
+}
+
+.team_form .team_form_submit {
+    background: #2923B0;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px 120px;
+    outline: none;
+    border: none;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.team_form .team_form_submit:hover {
+    background: #2923B0 !important;
+    opacity: 0.8;
+}
+
+.phone_input {
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+    font-size: 20px !important;
+    vertical-align: middle !important;
+    color: #fff !important;
+    width: inherit !important;
+    height: 50px !important;
+}
+
+.phone_btn {
+    font-size: 18px !important;
+    /* margin: 10px 0px 0px 0px!important; */
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.phone_btn:hover {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.react-tel-input .selected-flag:hover {
+    background-color: transparent !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+    background-color: transparent !important;
+}
+
+.phone_dd {
+    /* background-color: #5A6BFF!important; */
+    color: #000 !important;
+}
+
+.member_class_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Some browsers will not display the caret when using calc, so we put the fallback first */
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") #fff no-repeat 98.5% !important;
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") #fff no-repeat calc(100% - 10px) !important;
+}
+
+.input_error {
+    color: red !important;
+}
+
+@media screen and (max-width: 900px) {
+    .team_form {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team_form {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .team_form .team_form_input {
+        width: 95%;
+    }
+
+    .team_form .school_name_input {
+        width: 95%;
+    }
+    .team_form .team_form_submit {
+        padding: 6px 120px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .team_form .team_form_submit {
+        padding: 6px 100px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .team_form .team_registration_title,
+    .team_form .team_form_title {
+        font-size: 1.8rem;
+    }
+    .team_form .form_label {
+        font-size: 1.5rem;
+    }
+    .team_form .team_form_input {
+        width: 98%;
+    }
+
+    .team_form .school_name_input {
+        width: 98%;
+    }
+    .team_form .team_form_submit {
+        padding: 6px 90px;
+    }
+}

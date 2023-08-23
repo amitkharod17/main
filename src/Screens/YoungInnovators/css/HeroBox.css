@@ -1,0 +1,94 @@
+.herobox-container{
+    min-height:90vh;
+    background:url(../img/banner.png);
+    background-size: 100vw 90vh;
+    color:white;
+    text-align: center;
+    width:100%;
+    font-family: Poppins;
+}
+.herobox-container h1{
+    padding-top:4%;
+    font-weight: 650;
+    font-family: Poppins;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.herobox-container p{
+    width:65%;
+    margin:auto;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-top:2%;
+    font-size: large;
+}
+.herobox-container button{ /* button to .button change */
+    margin-top:3%;
+    border:none;
+    outline:none;
+    padding:0.95% 3%;
+    background:#396DFF;
+    color:white;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px #FFFFFF26;
+    font-weight:500
+}
+@media screen and (max-width:900px){
+    .herobox-container button{ /* button to .button change */
+        padding:1.5% 3%;
+    }
+}
+@media screen and (max-width:864px){
+    .herobox-container h1{
+        width:80%;
+        margin:auto;
+    }
+    .herobox-container{
+        min-height: 33rem;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:700px){
+    .herobox-container{
+        min-height:33rem;
+    }
+}
+@media screen and (max-width:600px){
+    .herobox-container p{
+        font-size: smaller;
+        margin:1.5rem auto;
+    }
+    .herobox-container button{
+    padding:2% 5%;
+    }
+    .herobox-container h1{
+        font-size:2.5rem;
+    }
+    .herobox-container p{
+        width:55%;
+        font-size:small
+    }
+}
+@media screen and (max-width:550px){
+    .herobox-container button{
+        padding:3% 6%;
+        font-size:small
+    }
+    .herobox-container h1{
+        font-size:1.7rem;
+    }
+    .herobox-container p{
+        font-size:0.7rem
+    }
+    /* .herobox-container{
+        min-height:75vh;
+    } */
+}
+@media screen and (max-width:400px){
+    .herobox-container{
+        min-height:30rem;
+    }
+    .herobox-container p{
+        width:75%;
+    }
+}

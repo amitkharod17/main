@@ -1,0 +1,18 @@
+.heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #F64B42;
+}
+
+.bgicon{
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+}
+.highlight-card-icon{
+    max-height: 25vh;
+    max-width: 140%;
+}

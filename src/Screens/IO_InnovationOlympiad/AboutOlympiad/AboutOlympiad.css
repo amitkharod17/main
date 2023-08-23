@@ -1,0 +1,88 @@
+.olympiad_about {
+    text-align: center;
+    padding: 5rem 0rem;
+    color: #fff;
+}
+.olympiad_about .olympiad_about_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 0px!important;
+}
+
+.olympiad_about .olympiad_about_subtitle {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 2.5rem auto 3.5rem auto; 
+    line-height: 1.3;
+}
+
+.olympiad_about .olympiad_about_img_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    width: 65%;
+    margin: 3.5rem auto 0rem auto;
+    padding: 0px 20px; 
+    line-height: 1.3;
+}
+
+@media (min-width: 1024px) and (max-width: 1448px) {
+    .sustainable_img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sustainable_img {
+        width: 80%;
+    }
+    .olympiad_about .olympiad_about_title {
+        font-size: 3rem;
+    }
+    .olympiad_about .olympiad_about_subtitle {
+        width: 80%;
+        margin: 2rem auto 3rem auto; 
+    }
+    .olympiad_about .olympiad_about_img_text {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sustainable_img {
+        width: 90%;
+    }
+    .olympiad_about .olympiad_about_title {
+        font-size: 2rem;
+    }
+    .olympiad_about .olympiad_about_subtitle {
+        width: 95%;
+        margin: 2rem auto 3rem auto; 
+        font-size: 1.2rem;
+    }
+    .olympiad_about .olympiad_about_img_text {
+        width: 95%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sustainable_img {
+        width: 90%;
+    }
+    .olympiad_about .olympiad_about_title {
+        font-size: 1.8rem;
+    }
+    .olympiad_about .olympiad_about_subtitle {
+        width: 98%;
+        margin: 1.5rem auto 2rem auto; 
+        font-size: 1.1rem;
+    }
+    .olympiad_about .olympiad_about_img_text {
+        width: 98%;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,196 @@
+.classroom-container {
+  min-height: 95vh;
+  text-align: center;
+  font-family: Poppins;
+}
+.classroom-container h2{
+  font-weight:600;
+  margin-bottom: 3rem;
+  margin-top:2rem;
+}
+.classroom-container h2 span {
+  color: #0067f0;
+  font-family: Poppins;
+}
+.classroom-container div {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.classroom-container div img {
+  height: 23rem;
+  width: 60%;
+}
+.cls-btns {
+  display: flex;
+  flex-direction: column;
+  width:40% !important;
+}
+.cls-btns div {
+  margin: 5% 0%;
+  width: 65%;
+  padding: 3% 5% 3% 1%;
+  background: transparent linear-gradient(127deg, #ffffff 0%, #eaf0ff 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #0067f040;
+  border: 1.5px solid #0067f0;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.cls-btns div img {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+}
+.cls-btns div p {
+  width: 60%;
+  text-align: left;
+  margin-left: 1rem;
+  font-family: Poppins;
+  font-size:1rem;
+  font-weight:500;
+  color:#4C4C4C;
+}
+.cls-btns .cls-selected {
+  background: #0067f0;
+  border: 1px solid #0067f0;
+  border-radius: 5px;
+  color: white;
+}
+.cls-btns .cls-selected p{
+  color: white;
+}
+@media screen and (max-width: 930px) {
+  .cls-btns div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .cls-btns div {
+    width: 95%;
+    margin-right: 3rem;
+  }
+  .classroom-container div {
+    width: 90%;
+  }
+  .cls-btns div p {
+    font-size: small;
+  }
+}
+@media screen and (max-width:800px){
+  .classroom-container > div >  img {
+    height: 18rem !important;
+    /* padding:30%; */
+  }
+  .cls-btns div p {
+    font-size: 0.85rem;
+  }
+  .classroom-container{
+    min-height:max-content;
+    margin:3rem auto 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .classroom-container img {
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .classroom-container > div {
+    flex-direction: column;
+  }
+  .classroom-container > div > img {
+    height: 20rem;
+    width: 80vw;
+    margin-bottom: 5rem;
+    align-items: center;
+    margin:auto;
+  }
+  .cls-btns {
+    flex-direction: row;
+    width:80% !important;
+    margin:auto;
+  }
+  .cls-btns div {
+    width: 15%;
+    height: 5rem;
+    padding: inherit;
+  }
+  .cls-btns div img{
+    height:85%;
+  }
+  .cls-btns div p {
+    display: none;
+  }
+  .cls-btns .cls-selected {
+    width: 50%;
+    margin: 2%;
+    background: #0067f0;
+    border: 2px solid #0067f0;
+    border-radius: 5px;
+    color: white;
+    padding:0 2%;
+  }
+  .cls-selected > p {
+    display: block !important;
+  }
+  .cls-btns div {
+    margin: 2rem 2% !important;
+  }
+  .classroom-container h2{
+    margin-bottom:1rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .cls-selected > p {
+    font-size: 2.5vw !important;
+    width: 100% !important;
+    margin-left: 0.5rem !important;
+  }
+  .cls-btns div img{
+    height:65%;
+  }
+  .cls-btns div {
+    width: 20%;
+  }
+}
+@media screen and (max-width:460px){
+  .classroom-container h2{
+    font-size: x-large;
+  }
+}
+@media screen and (max-width:400px){
+  .cls-btns div img{
+    height:50%;
+    width:80%;
+  }
+  .cls-btns div {
+    width: 25%;
+  }
+  .cls-btns .cls-selected {
+    width: 55%;
+    padding:0 1rem;
+  }
+  .cls-btns {
+    width:95% !important;
+  }
+  .cls-selected > p {
+    font-size: 3.2vw !important;
+  }
+  .cls-btns .cls-selected:last-child {
+    padding:0 3rem;
+  }
+  .classroom-container > div > img {
+    height: 13rem !important;
+    width: 85vw;
+    /* object-fit: ; */
+  }
+  .classroom-container h2{
+    font-size:1.2rem;
+  }
+  .classroom-container{
+    min-height:max-content;
+  }
+}

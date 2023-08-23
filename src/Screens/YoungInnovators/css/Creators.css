@@ -1,0 +1,118 @@
+.people-container {
+  min-height: 70vh;
+  text-align: center;
+  font-family: Poppins;
+}
+.people-container h4{
+  font-weight: 600;
+}
+.people-container h4 span{
+  color:#0067f0;
+  font-family: Poppins;
+}
+.people-container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 2% auto;
+}
+.people-container div div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.people-container div div div {
+  width: 100%;
+  border: 1.5px solid #0067f0;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  padding: 2%;
+}
+.people-container div div img {
+  border-radius: 50%;
+  height: 8.2rem;
+  width: 8.2rem;
+}
+.people-name {
+  margin: 3% 0 0;
+  padding: 0;
+  color: #0067f0;
+  font-family: Poppins;
+  font-weight:550;
+}
+.people-expertise {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: #0a0e2a;
+  opacity: 0.8;
+  font-family: Poppins;
+  font-weight:510;
+  width:80%;
+}
+.people-clg {
+  font-size: small;
+  color: #0a0e2a;
+  opacity: 0.8;
+  font-family: Poppins;
+  margin-top:3%;
+  font-weight:510;
+}
+@media screen and (max-width:930px){
+  .people-container div {
+    width:100%;
+  }
+  .people-container h4{
+    width:80%;
+    margin:auto;
+  }
+}
+@media screen and (max-width:800px){
+  .people-container{
+    min-height:max-content;
+    margin:2rem auto;
+  }
+}
+@media screen and (max-width:760px){
+  .people-container div div {
+    width: 30%;
+  }
+}
+@media screen and (max-width:600px){
+  .people-container{
+    margin-top:4rem;
+  }
+}
+@media screen and (max-width:500px){
+  .people-container div div {
+    width: 50%;
+  }
+  .people-container div{
+    width:85%;
+    margin-top:1rem;
+  }
+  .people-container{
+    margin-bottom:3rem;
+  }
+  .people-container h4{
+    font-size: 1.3rem !important;
+    width:100%;
+  }
+  .people-container div div img {
+    height: 7rem;
+    width: 7rem;
+  }
+  .people-container div div div {
+    height: 7.7rem;
+    width: 7.7rem;
+  }
+  .people-name{
+    font-size: small;
+  }
+  .people-clg,.people-expertise{
+    font-size: x-small;
+  }
+}

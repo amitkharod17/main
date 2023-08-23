@@ -1,0 +1,39 @@
+.io_team_login {
+    color: #fff;
+    padding: 5rem 0rem 6rem 0rem;
+    background-color: #020122;
+}
+
+.team_login_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.team_form .btn_team_login {
+    background: #2923B0;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px 120px;
+    outline: none;
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.team_form .btn_team_login:hover {
+    background: #2923B0!important;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .team_form .btn_team_login {
+        width: 85%;
+        padding: 6px 0px;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

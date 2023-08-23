@@ -1,0 +1,321 @@
+.dashboard_innovators_section {
+    /* height: 80vh; */
+    text-align: center;
+    padding: 4rem 0rem 3rem 0rem;
+    /* Created with https://www.css-gradient.com */
+    background: #396AE7;
+    background: -webkit-linear-gradient(top, #396AE7, #070B35);
+    background: -moz-linear-gradient(top, #396AE7, #070B35);
+    background: linear-gradient(to bottom, #396AE7, #070B35);
+  } 
+.dashboard_innovators_section .dashboard_innovators_title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: normal;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0px auto;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 30%;
+  }
+
+  .dashboard_innovators_section .dashboard_innovators_title .rl_text {
+    color: #3cfaff!important;
+  }
+
+  .cs-video-card {
+    background: white;
+    box-shadow: 5px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    width: 13.5rem;
+    box-sizing: border-box;
+    height: 16.5rem;
+    margin: 4rem auto 0rem auto; 
+    border-radius: 10px;
+  }
+  .cs-video-card {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #0000001a;
+    position: relative;
+    background-color: #7EF6FD;
+  }
+
+  .video_bg {
+    background-color: #fff!important;
+  }
+
+  .cs-video-card .play_img,
+  .cs-video-card .creator-name,
+  .cs-video-card .creator-class {
+    position: absolute;
+  }
+
+  .cs-video-card .play_img {
+    width: 54px;
+    height: 54px;
+    right: 0%;
+    bottom: 16%;
+  }
+
+  .cs-video-card .semi_circle {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .cs-video-card .virus_1 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+ 
+  .cs-video-card div .creator-name {
+      left: 0%;
+      bottom: 15%;
+  }
+
+  .cs-video-card iframe {
+    height: 12rem;
+    width: 17.5rem;
+    border: none;
+  }
+  .cs-video-card div .project-name {
+    color: #190A4D;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 6px 7px 6px;
+    font-family: 'Montserrat',sans-serif!important;
+  }
+  .cs-video-card .creator-name, .cs-video-card .creator-class {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 17.5px;
+    font-family: 'Montserrat',sans-serif!important;
+  }
+  .cs-video-card .creator-name {
+    left: 4%;
+    bottom: 25%;
+  }
+  .cs-video-card .creator-class {
+    left: 4%;
+    bottom: 18%;
+  }
+  .video-testimonials-carousel {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .dashboard_innovators_section .react-multi-carousel-dot--active button{
+    background: #0067F0 !important;
+    border:none;
+  }
+  .dashboard_innovators_section .react-multi-carousel-dot button{
+    background: rgba(0, 103, 240, 0.2);
+    border:none;
+  }
+ 
+  .modal-video-movie-wrap iframe {
+    width: inherit;
+    height: 550px;
+  }
+  
+  .modal-video-close-btn {
+    color:#000!important;
+  }
+  
+  .cs_yt_thumbnail {
+    width: 100%!important;
+    height: 14rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .cs-video-card i {
+    font-size: 42px;
+    position: absolute;
+    top: 30%;
+    right: 44%;
+  }
+  
+  .cs-video-card:hover i {
+    color: rgb(255, 0, 0);
+  }
+
+  .btn_what_is {
+      outline: none;
+      border: none;
+      background-color: #fff;
+      border-radius: 50px;
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 700;
+      margin-top: 70px;
+      width: 35%;
+      padding: 8px 0px;
+      font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width:930px){
+    .cs-video-card,.cs-video-card iframe,.text-card{
+      width:17rem;
+  }
+  }
+  @media screen and (max-width:850px){
+    .dashboard_innovators_section {
+      /* margin-top: 2rem; */
+  }
+      .cs-video-card,.cs-video-card iframe,.text-card{
+          width:15rem;
+      }
+      .text-card p{
+        font-size:0.65rem;
+      }
+      .dashboard_innovators_section{
+        min-height: max-content;
+      }
+  }
+  @media screen and (max-width:800px){
+    .dashboard_innovators_section {
+      /* height: 70vh; */
+      /* margin-top: 1.9rem; */
+  }
+      .cs-video-card,.cs-video-card iframe,.text-card{
+          width:18rem;
+      }
+      .cs-video-card,.text-card{
+        margin:2rem auto;
+      }
+      .modal-video-movie-wrap iframe {
+        width: inherit;
+        height: 350px;
+      }
+  }
+  @media screen and (max-width:620px){
+    .dashboard_innovators_section {
+      /* height: 75vh; */
+      /* margin-top: 1rem; */
+      padding-top: 2rem!important;
+    }
+
+      .cs-video-card,.cs-video-card iframe{
+          width:15rem;
+      }
+      .modal-video-movie-wrap iframe {
+        width: inherit;
+        height: 250px;
+      }
+      .cs_yt_thumbnail {
+        width: 15rem;
+        height: 10rem;
+      }
+      .cs-video-card i {
+        font-size: 42px;
+        position: absolute;
+        top: 30%;
+        right: 40%;
+      }
+      .btn_what_is {
+        margin-top: 40px;
+        width: 85%;
+        padding: 8px 0px;
+        font-size: 1rem;
+    }
+  }
+  @media screen and (max-width:550px){
+      .dashboard_innovators_section {
+          /* height: 70vh; */
+          /* margin-top: 1rem; */
+          padding-bottom: 4rem;
+      }
+      .cs-video-card,.cs-video-card iframe{
+          width:14.25rem;
+          height:16.5rem
+      }
+      .cs-video-card iframe{
+          height:10rem;
+      }
+      .dashboard_innovators_section .dashboard_innovators_title  {
+          font-size: 24px;
+          width: 54%;
+      }
+      .cs-video-card div .project-name {
+        font-size: 17px;
+      }
+      .cs-video-card div .creator-name, .cs-video-card div .creator-class {
+        font-size: 14px;
+      }
+  }
+  @media screen and (max-width:490px){
+      .cs-video-card,.cs-video-card iframe{
+          width:12.5rem;
+      }
+  }
+  @media screen and (max-width:440px){
+    .dashboard_innovators_section {
+      /* height: 60vh; */
+      /* margin-top: 1.2rem; */
+  }
+
+  .dashboard_innovators_section .dashboard_innovators_title  {
+    font-size: 24px;
+    width: 64%;
+  }
+
+    .cs-video-card img {
+      width: 100%;
+      height: 15rem;
+    }
+    .cs-video-card,.cs-video-card iframe{
+        width:15.2rem;
+        height: 17.5rem;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .dashboard_innovators_section {
+      margin-top: 0rem;
+    }
+
+    .dashboard_innovators_section .dashboard_innovators_title  {
+      width: 70%;
+    }
+
+    .text-card {
+      width: 17rem!important;
+    }
+    .cs-video-card img {
+      height: 15  rem;
+    }
+
+    .cs-video-card div .project-name {
+      color: #190A4D;
+      font-weight: 700;
+      text-align: center;
+      font-size: 15px;
+      padding: 7px 6px 5px 6px;
+      font-family: 'Montserrat',sans-serif!important;
+    }
+
+    .cs-video-card .creator-name {
+      left: 4%;
+      bottom: 26%;
+    }
+    .cs-video-card .creator-class {
+      left: 4%;
+      bottom: 19%;
+    }
+
+    .cs-video-card .play_img {
+      width: 54px;
+      height: 54px;
+      right: 0%;
+      bottom: 19%;
+    }
+
+  }

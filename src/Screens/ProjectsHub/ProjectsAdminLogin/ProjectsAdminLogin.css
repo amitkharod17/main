@@ -1,0 +1,45 @@
+.projects_admin_login {
+    height: 100vh;
+    background-color: #dadbde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pa_login_content {
+    width: 450px;
+    height: 450px;
+    background: #dbe9ff;
+    padding: 2rem;
+    box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.6);
+}
+
+.pa_login_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: #0033ff;
+    text-align: center;
+}
+
+.pa_login_label {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: rgba(0,0,0,0.4);
+}
+
+.pa_login_input {
+    height: 45px;
+    color: #000!important;
+}
+
+.pa_login_btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}

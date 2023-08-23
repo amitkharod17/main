@@ -1,0 +1,47 @@
+.ViewCertificate{
+  background: #007bff !important;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+}
+.certificateDiv {
+    padding: 7vw 0;
+    
+  }
+
+  .certificateDiv h6,div{
+  font-family: "Montserrat" !important;
+  }
+
+  .modal-header span  {
+    color: black !important;
+    font-size: 2vw !important;
+  }
+
+.modal-content{
+  background: white !important;
+  padding: 0 !important;
+}
+
+.modal-body{
+  color: black !important;
+  margin: 0 !important;
+}
+
+.modalPara{
+  color: black;
+  font-family: "Montserrat" !important;
+}
+
+input[type=text] {
+  color: black !important;
+}
+
+.MuiCheckbox-root{
+  display: none !important;
+}
+
+
+
+

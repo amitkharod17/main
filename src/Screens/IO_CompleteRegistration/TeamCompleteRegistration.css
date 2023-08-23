@@ -1,0 +1,84 @@
+.io_complete_registration {
+    color: #fff;
+    padding-bottom: 8rem;
+    padding-top: 1rem;
+    background-color: #020122;
+}
+
+.complete_registration_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFC700;
+    color: #000;
+    padding: 2rem 7rem 2rem 4rem;
+}
+
+.complete_registration_header .header_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.complete_content_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem 4rem 0rem;
+}
+
+.complete_content_box .activity_box {
+    height: 400px;
+    width: 50%;
+    padding: 3rem 9rem;
+    text-align: center;
+}
+
+.complete_content_box .activity_box .activity_text {
+    font-size: 1.8rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.complete_content_box .activity_box .btn_bootcamp_activity {
+    outline: none;
+    border: none;
+    background: #5A6BFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    width: 80%;
+}
+
+.complete_content_box .activity_box:nth-child(1) {
+    border-right: 2px dashed #fff;
+}
+
+.complete_content_box .activity_box:nth-child(2) .btn_bootcamp_activity {
+    margin-top: 4rem;
+}
+
+.io_complete_registration .why_bootcamp {
+    width: 80%;
+    margin: 0 auto;
+    background: #2923B0;
+    padding: 1rem 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.io_complete_registration .why_bootcamp .why_bootcamp_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    line-height: 2.2rem;
+}

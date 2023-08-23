@@ -1,0 +1,210 @@
+.project_list {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.projects_search {
+    width: 97.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+
+.projects_search .projects_filters_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.projects_search .project_search_box {
+    display: flex;
+    background-color: #C4C4C4;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.projects_search .projects_search_icon {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.project_search_box .projects_search_input {
+    background: transparent;
+    width: 80%;
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.projects_search_input::placeholder {
+    font-size: 18px;
+}
+
+/* Projects content begin */
+
+.projects_list_content {
+    display: flex;
+    /* border-bottom: 1px solid #000; */
+}
+
+.project_list .projects_lc_left {
+    width: 25%;
+    /* border-top: 1px solid #000; */
+}
+
+.lc_left_item_list {
+    overflow-y: auto;
+}
+
+.projects_lc_left .projects_lc_left_item {
+    padding: 1.5rem 2rem;
+    border-top: 1px solid #000;
+}
+
+.projects_lc_left_item .lc_left_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.lc_list_item {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.lc_list_item_checkbox {
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+.lc_list_checkbox_label {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+.lc_list_more_text {
+    text-align: center;
+    color: #E70A24;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    padding: 1rem 0rem;
+    cursor: pointer;
+}
+
+.lc_need_help_box {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.lc_need_help_cover {
+    background-color: #3A6CED;
+    padding: 10px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lc_need_help_text {
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.dicord_community_cover {
+    padding: 1rem;
+}
+
+.lc_discord_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.lc_discord_community_text {
+    font-size: 1.4rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.project_list .projects_lc_right {
+    width: 75%;
+    /* height: ; */
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    overflow-y: auto;
+    padding: 2rem 2rem;
+}
+
+.projects_cover {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_card {
+    cursor: pointer;
+}
+
+/* Projects content end */
+
+@media screen and (max-width: 900px) {
+    .project_list .projects_lc_left {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .projects_search .projects_filters_text {
+        font-size: 1.2rem;
+    }
+
+    .projects_search .project_search_box {
+        width: 70%;
+    }
+
+    .projects_list_content {
+        flex-direction: column;
+    }
+
+    .project_list .projects_lc_left {
+        width: 100%;
+    }
+
+    .projects_lc_left_item .lc_left_item_text {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .lc_left_item_list {
+        overflow-y: auto;
+        height: 150px;
+    }
+
+    .project_list .projects_lc_right {
+        width: 100%;
+        border-top: 1px solid #000;
+        border-left: none;
+        padding: 1rem;
+    }
+
+    .projects_cover .pc_margin {
+        margin: 1rem 1rem 0rem;
+    }
+
+    .project_list {
+        padding: 1rem 0rem 2rem 0rem;
+    }
+
+}

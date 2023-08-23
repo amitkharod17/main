@@ -1,0 +1,277 @@
+.new_student_login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0a0e2a;
+}
+
+.new_student_login .new_logo {
+    padding: 30px;
+}
+
+.new_student_login .new_logo img {
+    width: 12rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.form_container {
+    width: 460px;
+    height: 480px;   
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #242355;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.form_container .form_heading {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.form_container .form_heading p {
+    font-size: 12px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form_container .form_heading h2 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 18px 0px 20px 0px;
+}
+
+.form_container form {
+    width: 80%;
+    margin: 30px auto 0px auto;   
+}
+
+.form_container form input,
+.form_container form input:focus {
+    background-color: inherit;
+    border: 1.5px solid rgba(126, 246, 253, 0.8);
+    outline: none;
+    margin-top: 5px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form_container form label a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form_container form label {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 13px;
+    font-weight: 600;
+}
+
+.form_container form .forgot_pass {
+    color: #D7C5C5;
+    font-weight: 500;
+    margin-left: 152px;
+}
+
+.form_container form button {
+    width: 100%;
+    background: #7EF6FD;
+    font-family: 'Montserrat',sans-serif;
+    color: #190A4D!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 18px auto;
+}
+
+.form_container form .not_registered {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form_container form small {
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form_container form small a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form_container form small img {
+    width: 16px;
+    height: 16px;
+} 
+
+.team_container h2 {
+    margin: 4rem auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.team_container .team_content {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.team_container .team_content .team_badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    padding-bottom: 80px;
+    /* border: 1px solid red;     */
+}
+.team_container .team_content .team_badge .team_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.team_container .team_content .team_badge h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    width: 70%;
+    font-size: 26px;
+    text-align: left;
+    padding-left: 12px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .team_container .team_content {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team_container .team_content .team_badge {
+        width: 200px;
+        padding: 40px;
+    }
+    .team_container .team_content .team_badge .team_logo {
+        width: 60px;
+        height: 60px;
+    }
+    .team_container .team_content .team_badge h1 {
+        width: 70%;
+        font-size: 20px;
+    }
+    .amazon_icon {
+        width: 100%;
+    }
+    .microsoft_icon {
+        width: 40px!important;
+        height: 40px!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form_container {
+        width: 90%;
+        height: 440px;
+    }
+
+    .form_container form .label_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .form_container form .forgot_pass {
+        margin-left: 0px;
+    }
+
+    .form_container form .not_registered {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .team_container h2 {
+        margin: 4rem auto;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+    }
+
+    .team_container .team_content {
+        width: 80%;
+    }
+    .team_container .team_content .team_badge {
+        width: 50%;
+        padding: 10px;
+    }
+    .team_container .team_content .team_badge .team_logo {
+        width: 35px;
+        height: 35px;
+    }
+    .team_container .team_content .team_badge h1 {
+        width: 80%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .microsoft_icon {
+        width: 35px!important;
+        height: 35px!important;
+    }
+    .team_container h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .form_container {
+        width: 98%;
+        height: 440px;
+    }
+
+    .form_container .form_heading p {
+        font-size: 10px;
+    }
+    
+    .form_container .form_heading h2 {
+        font-size: 18px;
+        margin: 18px 0px 20px 0px;
+    }
+    .team_container h2 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .form_container {
+        width: 98%;
+        height: 400px;
+    }
+
+    .form_container .form_heading {
+        padding-top: 30px;
+    }
+
+    .form_container .form_heading p {
+        font-size: 10px;
+    }
+    
+    .form_container .form_heading h2 {
+        font-size: 16px;
+    }
+
+    .form_container form label {
+        font-size: 13px;
+    }
+}

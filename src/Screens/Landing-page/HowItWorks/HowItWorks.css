@@ -1,0 +1,1144 @@
+.howitworks-container {
+    min-height: 95vh;
+    /* text-align: center; */
+    font-family: 'Monsterrat', sans-serif;
+    padding-bottom: 5rem;
+}
+
+.work_container {
+    padding-bottom: 3rem;
+}
+
+/* .work_container h2 {
+    color: #7EF6FD;
+    font-size: 3.12vw;
+    line-height: normal;
+    letter-spacing: calc(0.9 * var(--vp));
+    padding-top: 25px;
+    font-weight: 400;
+    width: 60vw;
+    margin: 2rem auto 0rem auto;
+    text-align: center;
+} */
+
+.howitworks-container .how-heading,
+.work_container .work_heading {
+    display: block;
+    width: 80%;
+    margin: 2rem auto 3rem auto;
+    color: #7EF6FD;
+    text-align: center;
+    padding-top: 40px;
+}
+.work_container .work_heading {
+    margin: 2rem auto 0rem auto;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.howitworks-container .how-heading h2,
+.work_container .work_heading h2 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3.2vw;
+    font-style: normal;
+    color: #3CFAFF;
+}
+
+.howitworks-container h2 span {
+    color: #0067f0;
+    /* font-family: Poppins; */
+}
+
+.howitworks-container div {
+    display: flex;
+    width: 98%;
+    margin: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Right Box start */
+
+.howitworks-container .right_box {
+    width: 60%;
+    position: relative;
+}
+
+.howitworks-container .right_box .yellow_rectangle,
+.howitworks-container .right_box .red_rectangle,
+.howitworks-container .right_box .electrical_circuit,
+.howitworks-container .right_box .coding,
+.howitworks-container .right_box .blue_ellipse,
+.howitworks-container .right_box .network,
+.howitworks-container .right_box .whatsapp_icon,
+.interactive_mobile .light_blue_ellipse_mobile,
+.interactive_mobile .online_study_mobile,
+.pb_mobile .yellow_rectangle_mobile,
+.pb_mobile .red_rectangle_mobile,
+.pb_mobile .electrical_circuit_mobile,
+.pb_mobile .coding_mobile,
+.pb_mobile .circuit_text_mobile,
+.pb_mobile .code_text_mobile,
+.interactive_card .int_light_blue_ellipse,
+.interactive_card .int_online_study,
+.interactive_card .int_light_blue_ellipse,
+.interactive_card .int_yellow_rectangle,
+.interactive_card .int_red_rectangle,
+.interactive_card .int_electrical_circuit,
+.interactive_card .int_coding,
+.interactive_card .int_circuit_text,
+.interactive_card .int_code_text,
+.interactive_card .int_blue_ellipse,
+.interactive_card .int_network,
+.interactive_card .int_whatsapp_chat_img,
+.interactive_card .int_whatsapp_icon, 
+.interactive_card .int_logotypes_full,
+.interactive_card .int_live_img,
+.interactive_card .int_teacher_img,
+.howitworks-container .right_box .play_icon,
+.howitworks-container .right_box .red_ellipse,
+.interactive_card .int_red_ellipse,
+.interactive_card .play_icon    
+{
+    position: absolute;
+}
+
+.howitworks-container .right_box .play_icon {
+    width: 48px;
+    height: 48px;
+    z-index: 5;
+    cursor: pointer;
+}  
+
+.howitworks-container .yt_thumbnail {
+    width: 90%;
+    height: 71%;
+    border-radius: 10px;
+    /* border: 1px solid #f64b42;  */
+    margin-right: 40px;
+}
+
+.interactive_card .mobile_yt_thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    /* border: 1px solid #f64b42;  */
+    margin-right: 40px;
+}
+
+.howitworks-container .right_box .yellow_rectangle {
+    width: 12rem;
+    height: 8rem;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+}
+
+.howitworks-container .right_box .red_rectangle {
+    width: 12rem;
+    height: 8rem;
+    z-index: 1;
+    bottom: -16%;
+    right: 10%;
+}
+
+.howitworks-container .right_box .electrical_circuit {
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 2;
+    right: 19%;
+    bottom: -10%;
+}
+
+.howitworks-container .right_box .circuit_text {
+    position: absolute;
+    z-index: 5;
+    right: 15%;
+    bottom: 14%;
+    font-weight: 600;
+    transform: rotate(14deg);
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.howitworks-container .right_box .coding {
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 2;
+    top: 24%;
+    left: 15%;
+}
+
+.howitworks-container .right_box .code_text {
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 14%;
+    font-weight: 600;
+    transform: rotate(-10deg);
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.howitworks-container .right_box .network {
+    right: 30%;
+}
+
+.howitworks-container .right_box .support {
+    position: relative;
+}
+
+.howitworks-container .right_box .whatsapp_chat_img {
+    height: 25rem;
+}
+
+.howitworks-container .right_box .whatsapp_icon {
+    z-index: 1;
+    width: 4rem;
+    height: 4rem;
+    left: 22%;
+    bottom: -2%;
+}
+
+.howitworks-container .right_box .light_blue_ellipse {
+    position: absolute;
+    left: 7%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.howitworks-container .right_box .red_ellipse {
+    width: 150px;
+    height: 150px;
+    left: -5%;
+    bottom: -9%;
+    z-index: -1;
+}
+
+.howitworks-container .right_box .logotypes_up_1, 
+.howitworks-container .right_box .logotypes_up_2, 
+.howitworks-container .right_box .logotypes_up_3, 
+.howitworks-container .right_box .logotypes_up_4, 
+.howitworks-container .right_box .logotypes_down_1, 
+.howitworks-container .right_box .logotypes_down_2, 
+.howitworks-container .right_box .logotypes_down_3, 
+.howitworks-container .right_box .logotypes_down_4,  
+.howitworks-container .right_box .logotypes_full
+{
+    position: absolute;
+    z-index: -5;
+}
+
+.howitworks-container .right_box .teacher_img {
+    position: absolute;
+    /* width: 350px;
+    height: 250px; */
+    top: -11%;
+    right: -1%;
+}
+
+.howitworks-container .right_box .teacher_text_img {
+    position: absolute;
+    top: -7.5%;
+    right: 3.5%;
+    z-index: 5;
+}
+
+.howitworks-container .right_box .teacher_bg {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    top: -9%;
+    right: -1%; 
+}
+
+.howitworks-container .right_box .live_img {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.howitworks-container .right_box .logotypes_full  {
+    width: 150px;
+    height: 150px;
+    top: -11%;
+    right: 0%;
+}
+
+
+.howitworks-container .right_box .logotypes_up_1 {
+    top: -11%;
+    right: 18%;
+}
+.howitworks-container .right_box .logotypes_down_1 {
+    top: -11%;
+    right: 18%;
+}
+.howitworks-container .right_box .logotypes_up_2 {
+    top: -11%;
+    right: 11%;
+}
+.howitworks-container .right_box .logotypes_down_2 {
+    top: -11%;
+    right: 11%;
+}
+.howitworks-container .right_box .logotypes_up_3 {
+    top: 7%;
+    right: 11%;
+}
+.howitworks-container .right_box .logotypes_down_3 {
+    top: 7%;
+    right: 11%;
+}
+
+.howitworks-container .right_box .online_study {
+    width: 12rem;
+    height: 10rem;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.howitworks-container div iframe {
+    height: 18rem;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+}
+
+.how-cls-btns {
+    display: flex;
+    flex-direction: column;
+    width: 50% !important;
+    /* height: 100px; */
+}
+
+.how-cls-btns div {
+    margin: 2% 0%;
+    width: 80%;
+    /* height: ; */
+    padding: 2% 4% 2% 2%;
+    background: #2B3073;
+    box-shadow: 0px 0px 20px #0067f040;
+    /* border: 1.5px solid #0067f0; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.how-cls-btns div span {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.how-cls-btns div img {
+    height: 3.5rem;
+    width: 3.5rem;
+    object-fit: contain;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.how-cls-btns div p {
+    width: 60%;
+    text-align: left;
+    margin-left: 1rem;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.onSelect {
+    font-weight: 600!important;
+}
+
+.how-cls-btns .how-cls-selected {
+    background: #333FC3;
+    border: 1px solid #333FC3;
+    border-radius: 5px;
+    color: white;
+}
+
+.how-cls-btns .how-cls-selected p {
+    color: white;
+}
+
+@media  (min-width: 900px) and (max-width: 1200px) {
+    .howitworks-container .right_box .teacher_img {
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        top: -11%;
+        right: -1%;
+    }
+    .howitworks-container .right_box .live_img {
+        width: 48px;
+        height: 48px;
+        top: 1%;
+        left: -1%;
+    }
+    .howitworks-container .right_box .logotypes_full  {
+        top: -16%;
+        right: -8%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .how-cls-btns div {
+        width: 80%;
+    }
+}
+
+.interactive_mobile,
+.pb_mobile {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.interactive_mobile .interactive_content {
+    position: relative;
+}
+
+.interactive_mobile .interactive_content iframe {
+    width: 80%;
+}
+
+.interactive_mobile .interactive_title {
+    padding: 40px 40px 30px 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.interactive_mobile .interactive_content .light_blue_ellipse_mobile {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 12%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.interactive_mobile .interactive_content .online_study_mobile {
+    width: 200px;
+    position: absolute;
+    right: -6%;
+    bottom: 4%;
+    z-index: 1;
+}
+
+.how-carousel {
+    border: 1px solid #f00;
+    padding: 20px;
+    color: #fff;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.interactive_card {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.interactive_card .int_middle {
+    display: flex;
+    height: 318px;
+    position: relative;
+}
+
+.interactive_card .int_middle iframe {
+    width: 100%;
+    border: none;
+}
+
+
+/* Interactive Learning Mobile start */
+
+.interactive_card .int_light_blue_ellipse {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 6%;
+    bottom: -11%;
+    z-index: -1;
+}
+
+.interactive_card .int_red_ellipse  {
+    width: 120px;
+    height: 120px;
+    left: -8%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.interactive_card .int_online_study {
+    width: 200px;
+    position: absolute;
+    right: -16%;
+    bottom: 2%;
+    z-index: 1;
+}
+
+.interactive_card .int_logotypes_full  {
+    width: 200px;
+    height: 200px;
+    top: -20%;
+    right: -20%;
+    z-index: -5;
+}
+.interactive_card .int_teacher_img  {
+    width: 200px;
+    height: 200px;
+    top: -20%;
+    right: -20%;
+}
+
+.interactive_card .int_live_img {
+    width: 200px;
+    height: 200px;
+    top: 0%;
+    left: 0%;
+}
+
+.interactive_card .play_icon {
+    width: 48px;
+    height: 48px;
+    top: 40%;
+    left: 45%;
+    cursor: pointer;
+}  
+
+.interactive_card .int_teacher_bg {
+    position: absolute;
+    width: 46px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #333FC3;
+    font-weight: bold;
+    text-align: center;
+    font-size: 9px;
+    top: -11%;
+    right: -1%;
+    padding-top: 1px;
+}
+
+/* Interactive Learning Mobile end */
+
+
+/* Project Based Learning Mobile start */
+
+.interactive_card .int_yellow_rectangle {
+    width: 10rem;
+    height: 8rem;
+    z-index: 1;
+    top: 14%;
+    left: -14%;
+}
+
+.interactive_card .int_red_rectangle {
+    width: 10rem;
+    height: 8rem;
+    z-index: 1;
+    bottom: -14%;
+    right: -10%;
+}
+
+.interactive_card .int_electrical_circuit {
+    width: 4rem;
+    height: 4rem;
+    z-index: 2;
+    right: 3%;
+    bottom: -6%;
+}
+
+.interactive_card .int_circuit_text {
+    position: absolute;
+    z-index: 5;
+    right: -5%;
+    bottom: 13%;
+    font-weight: 600;
+    transform: rotate(14deg);
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.interactive_card .int_coding {
+    width: 4rem;
+    height: 4rem;
+    z-index: 2;
+    top: 28%;
+    left: 1%;
+}
+
+.interactive_card .int_code_text {
+    position: absolute;
+    z-index: 5;
+    top: 22%;
+    left: -1%;
+    font-weight: 600;
+    transform: rotate(-10deg);
+    font-family: 'Monsterrat', sans-serif;
+}
+
+
+/* Project Based Learning Mobile end */
+
+
+/* Peer to Peer Mobile start */
+
+.interactive_card .int_blue_ellipse {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 16%;
+}
+
+.interactive_card .int_network {
+    width: 240px;
+    height: 240px;
+    top: 20%;
+    left: 18%;
+    z-index: 1;
+}
+
+
+/* Peer to Peer Mobile end */
+
+
+/* Whats app Support Mobile start */
+
+.interactive_card .int_whatsapp_chat_img {
+    width: 300px;
+    height: 320px;
+    left: 18%;
+}
+
+.interactive_card .int_whatsapp_icon {
+    width: 50px;
+    height: 50px;
+    bottom: -2%;
+    left: 13%;
+}
+
+
+/* Whats app Support Mobile end */
+
+.interactive_card .int_bottom {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.interactive_card .int_bottom p {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 850px) {
+    .how-cls-btns div {
+        width: 95%;
+        margin-right: 3rem;
+    }
+    .howitworks-container div {
+        width: 90%;
+    }
+    .how-cls-btns div p {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .howitworks-container>div>img {
+        height: 18rem !important;
+        /* padding:30%; */
+    }
+    .how-cls-btns div p {
+        font-size: 0.85rem;
+    }
+    .howitworks-container {
+        min-height: max-content;
+        margin: 3rem auto 4rem;
+    }
+    .work_container .work_heading h2 {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .interactive_card {
+        width: 80%;
+    }
+
+    .interactive_card .mobile_yt_thumbnail {
+        margin-right: 0px;
+    }
+
+    .interactive_card .int_teacher_img  {
+        width: 150px;
+        height: 104px;
+        top: -6%;
+        right: -8%;
+    }
+
+    .interactive_card .int_teacher_bg {
+        top: -4%;
+        right: -4%;
+        padding-top: 1px;
+    }
+
+    .interactive_card .int_live_img {
+        width: 48px;
+        height: 48px;
+        top: 0%;
+        left: 3%;
+    }
+    .interactive_card .int_logotypes_full  {
+        top: -19%;
+        right: -15%;
+        z-index: -5;
+    }
+     /* Peer to Peer Mobile start */
+     .interactive_card .int_blue_ellipse {
+        top: 10%;
+        left: 21%;
+    }
+    .interactive_card .int_network {
+        top: 21%;
+        left: 23%;
+    }
+    /* Peer to Peer Mobile end */
+    /* Whats app Support Mobile start */
+    .interactive_card .int_whatsapp_chat_img {
+        left: 21%;
+    }
+    .interactive_card .int_whatsapp_icon {
+        bottom: -4%;
+        left: 18%;
+    }
+    /* Whats app Support Mobile end */
+}
+
+@media screen and (max-width: 700px) {
+    .howitworks-container img {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .howitworks-container>div {
+        flex-direction: column;
+    }
+    .howitworks-container>div>img {
+        height: 20rem;
+        width: 80vw;
+        margin-bottom: 5rem;
+        align-items: center;
+        margin: auto;
+    }
+    .how-cls-btns {
+        flex-direction: row;
+        width: 80% !important;
+        margin: auto;
+    }
+    .how-cls-btns div {
+        width: 15%;
+        height: 5rem;
+        padding: inherit;
+    }
+    .how-cls-btns div img {
+        height: 85%;
+    }
+    .how-cls-btns div p {
+        display: none;
+    }
+    .how-cls-btns .how-cls-selected {
+        width: 50%;
+        margin: 2%;
+        background: #0067f0;
+        border: 2px solid #0067f0;
+        border-radius: 5px;
+        color: white;
+        padding: 0 2%;
+    }
+    .how-cls-selected>p {
+        display: block !important;
+    }
+    .how-cls-btns div {
+        margin: 2rem 2% !important;
+    }
+    .howitworks-container h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .how-cls-selected>p {
+        font-size: 2.5vw !important;
+        width: 100% !important;
+        margin-left: 0.5rem !important;
+    }
+    .how-cls-btns div img {
+        height: 65%;
+    }
+    .how-cls-btns div {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .work_container .work_heading h2 {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .interactive_card {
+        width: 80%;
+    }
+    .interactive_card .int_middle {
+        height: 200px;
+    }
+    /* Interactive Learning Mobile start */
+    .interactive_card .int_online_study {
+        width: 120px;
+        position: absolute;
+        right: -12%;
+        bottom: 5%;
+        z-index: 1;
+    }
+
+    .interactive_card .int_red_ellipse {
+        width: 70px;
+        height: 70px;
+        left: -5%;
+        bottom: -10%;
+        z-index: -1;  
+    }
+
+    .interactive_card .int_logotypes_full  {
+        width: 125px;
+        height: 125px;
+        top: -19%;
+        right: -18%;
+        z-index: -5;
+    }
+    .interactive_card .int_teacher_img  {
+        width: 125px;
+        height: 95px;
+        top: -14%;
+        right: -10%;
+    }
+
+    .interactive_card .int_teacher_bg {
+        top: -11%;
+        right: -7%;
+        padding-top: 1px;
+    }
+
+    .interactive_card .int_live_img {
+        width: 48px;
+        height: 48px;
+        top: 0%;
+        left: 3%;
+    }
+    /* Interactive Learning Mobile end */
+    /* Project Based Learning Mobile start */
+    .interactive_card .int_yellow_rectangle {
+        width: 7.5rem;
+        height: 5.5rem;
+        top: 16%;
+        left: -12%;
+    }
+    .interactive_card .int_red_rectangle {
+        width: 7.5rem;
+        height: 5.4rem;
+        bottom: -10%;
+        right: -12%;
+    }
+    .interactive_card .int_electrical_circuit {
+        width: 3rem;
+        height: 3rem;
+        right: 1%;
+        bottom: -3%;
+    }
+    .interactive_card .int_circuit_text {
+        right: -10%;
+        bottom: 18%;
+        font-size: 13px;
+    }
+    .interactive_card .int_coding {
+        width: 3rem;
+        height: 3rem;
+        top: 30%;
+        left: 2%;
+    }
+    .interactive_card .int_code_text {
+        top: 22%;
+        left: 1%;
+        font-size: 13px;
+    }
+    /* Project Based Learning Mobile end */
+    /* Peer to Peer Mobile start */
+    .interactive_card .int_blue_ellipse {
+        width: 200px;
+        height: 200px;
+        top: 10%;
+        left: 16%;
+    }
+    .interactive_card .int_network {
+        width: 145px;
+        height: 145px;
+        top: 24%;
+        left: 22%;
+    }
+    /* Peer to Peer Mobile end */
+    /* Whats app Support Mobile start */
+    .interactive_card .int_whatsapp_chat_img {
+        width: 200px;
+        height: 220px;
+        left: 18%;
+    }
+    .interactive_card .int_whatsapp_icon {
+        width: 30px;
+        height: 30px;
+        bottom: -12%;
+        left: 14%;
+    }
+    /* Whats app Support Mobile end */
+}
+
+@media screen and (max-width:400px) {
+    .how-cls-btns div img {
+        height: 50%;
+        width: 80%;
+    }
+    .how-cls-btns div {
+        width: 25%;
+    }
+    .how-cls-btns .how-cls-selected {
+        width: 55%;
+        padding: 0 1rem;
+    }
+    .how-cls-btns {
+        width: 95% !important;
+    }
+    .how-cls-selected>p {
+        font-size: 3.2vw !important;
+    }
+    .how-cls-btns .how-cls-selected:last-child {
+        padding: 0 3rem;
+    }
+    .howitworks-container>div>img {
+        height: 13rem !important;
+        width: 85vw;
+        /* object-fit: ; */
+    }
+    .howitworks-container h2 {
+        font-size: 1.2rem;
+    }
+    .howitworks-container {
+        min-height: max-content;
+    }
+    .interactive_card {
+        width: 90%;
+    }
+    .interactive_card .int_middle {
+        height: 200px;
+    }
+    /* Interactive Learning Mobile start */
+    .interactive_card .int_online_study {
+        width: 100px;
+        right: -8%;
+        bottom: 5%;
+    }
+    .interactive_card .int_logotypes_full  {
+        width: 140px;
+        height: 140px;
+        top: -22%;
+        right: -19%;
+    }
+    .interactive_card .int_teacher_img  {
+        width: 140px;
+        height: 140px;
+        top: -22%;
+        right: -19%;
+    }
+    .interactive_card .int_teacher_bg {
+        top: -11%;
+        right: -1%;
+        padding-top: 1px;
+    }
+    /* Interactive Learning Mobile end */
+    /* Project Based Learning Mobile start */
+    .interactive_card .int_yellow_rectangle {
+        width: 7.5rem;
+        height: 5.5rem;
+        top: 12%;
+        left: -9%;
+    }
+    .interactive_card .int_red_rectangle {
+        width: 7.5rem;
+        height: 5.2rem;
+        bottom: -10%;
+        right: -10%;
+    }
+    .interactive_card .int_electrical_circuit {
+        width: 3rem;
+        height: 3rem;
+        right: 4%;
+        bottom: -4%;
+    }
+    .interactive_card .int_circuit_text {
+        right: -8%;
+        bottom: 16%;
+        font-size: 13px;
+    }
+    .interactive_card .int_coding {
+        width: 3rem;
+        height: 3rem;
+        top: 27%;
+        left: 4%;
+    }
+    .interactive_card .int_code_text {
+        top: 20%;
+        left: 2%;
+        font-size: 14px;
+    }
+    .interactive_card .int_teacher_img  {
+        width: 120px;
+        height: 90px;
+        top: -14%;
+        right: -5%;
+    }
+    .interactive_card .int_live_img {
+        width: 48px;
+        height: 48px;
+        top: 0%;
+        left: 3%;
+    }
+    /* Project Based Learning Mobile end */
+    /* Peer to Peer Mobile start */
+    .interactive_card .int_blue_ellipse {
+        top: 10%;
+        left: 14%;
+    }
+    .interactive_card .int_network {
+        top: 24%;
+        left: 20%;
+    }
+    /* Peer to Peer Mobile end */
+    /* Whats app Support Mobile start */
+    .interactive_card .int_whatsapp_chat_img {
+        width: 180px;
+        height: 200px;
+        left: 16%;
+    }
+    .interactive_card .int_whatsapp_icon {
+        width: 30px;
+        height: 30px;
+        bottom: -2%;
+        left: 13%;
+    }
+    /* Whats app Support Mobile end */
+}
+
+@media (max-width: 325px) {
+
+    .work_container .work_heading h2 {
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0px auto;
+        width: 75%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .interactive_card .int_logotypes_full  {
+        width: 110px;
+        height: 110px;
+        top: -16%;
+        right: -18%;
+    }
+    .interactive_card .int_teacher_img  {
+        top: -14%;
+        right: -5%;
+    }
+    .interactive_card .int_live_img {
+        width: 36px;
+        height: 36px;
+        top: 0%;
+        left: 3%;
+    }
+     /* Project Based Learning Mobile start */
+     .interactive_card .int_yellow_rectangle {
+        width: 6.5rem;
+        height: 4.5rem;
+        top: 14%;
+        left: -8%;
+    }
+    .interactive_card .int_red_rectangle {
+        width: 6.7rem;
+        height: 4.5rem;
+        bottom: -6%;
+        right: -8%;
+    }
+    .interactive_card .int_electrical_circuit {
+        width: 2.6rem;
+        height: 2.6rem;
+        right: 7%;
+        bottom: -2%;
+    }
+    .interactive_card .int_circuit_text {
+        right: -5%;
+        bottom: 16%;
+        font-size: 12px;
+    }
+    .interactive_card .int_coding {
+        width: 2.6rem;
+        height: 2.6rem;
+        top: 26%;
+        left: 6%;
+    }
+    .interactive_card .int_code_text {
+        top: 20%;
+        left: 4%;
+        font-size: 12px;
+    }
+    /* Project Based Learning Mobile end */
+    
+    /* Peer to Peer Mobile start */
+    .interactive_card .int_blue_ellipse {
+        top: 10%;
+        left: 8%;
+    }
+    .interactive_card .int_network {
+        top: 24%;
+        left: 15%;
+    }
+    /* Peer to Peer Mobile end */
+    /* Whats app Support Mobile start */
+    .interactive_card .int_whatsapp_chat_img {
+        left: 14%;
+    }
+    
+    .interactive_card .int_whatsapp_icon {
+        left: 10%;
+    }
+    /* Whats app Support Mobile end */
+}

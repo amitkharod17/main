@@ -1,0 +1,123 @@
+.yi-video{
+    display:flex;
+    justify-content: center;
+    background:url(../img/videoBanner.png);
+    background-color:white;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    min-height:100vh;
+    flex-direction: column;
+    align-items: center;
+}
+.yi-video iframe{
+    height:30rem;
+    width:58rem;
+    border:none;
+    border-radius: 10px;
+    margin-top:-5rem;
+    box-shadow: 0px 10px 10px #00000029;
+}
+.yi-video p{
+    width:75%;
+    margin:2.5% 3% 0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color:black;
+    font-weight:450;
+}
+@media screen and (max-width:1030px){
+    .yi-video iframe{
+        width:50rem;
+        margin-top:-10rem;
+    }
+    .yi-video{
+        min-height:35rem;
+    }
+}
+@media screen and (max-width:880px){
+    .yi-video iframe{
+        width:80vw;
+    }
+}
+@media screen and (max-width:864px){
+    .yi-video iframe{
+        margin-top:-9rem !important;
+    }
+}
+@media screen and (max-width:780px){
+    .yi-video iframe{
+        margin-top:-15rem !important;
+        width:36rem;
+        height:23rem;
+    }
+    /* .yi-video{
+        min-height:130vh;
+    } */
+}
+@media screen and (max-width:630px){
+    .yi-video iframe{
+        margin-top:-25rem;
+        width:28rem !important;
+        height:19rem;
+    }
+}
+@media screen and (max-width:600px){
+    .yi-video iframe{
+        margin-top:-5rem !important;
+    }
+    .yi-video{
+        min-height:40rem;
+        }
+        .yi-video {
+            min-height: 20rem;
+            margin-bottom: 6rem !important;
+        }
+}
+@media screen and (max-width:550px){
+    /* .yi-video iframe{
+        margin-top:-15rem !important;
+        width:80% !important;
+        height:50vh !important;
+    }
+    .yi-video{
+        margin-bottom:6rem;
+    }
+    .yi-video p{
+        font-size:small;
+        width:80%;
+    } */
+}
+@media screen and (max-width:470px){
+    .yi-video iframe{
+        width:80vw !important;
+        height:15rem !important;
+        margin-top:-15rem !important;
+        border-radius:5px;
+    }
+    .yi-video p{
+        margin-top:5%;
+        font-size:x-small;
+        width:90%;
+    }
+    /* .yi-video{
+    min-height:85vh;
+    } */
+}
+@media screen and (max-width:460px){
+    /* .yi-video{
+        min-height:80vh;
+    } */
+    .yi-video iframe{
+        margin-top:-10rem !important;
+    }
+}
+@media screen and (max-width:400px){
+    .yi-video iframe{
+        width:18rem;
+        height:14rem !important;
+        margin-top:-13rem !important;
+
+    }
+}

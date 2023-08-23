@@ -1,0 +1,303 @@
+.courses-projects {
+  background-color: #0e0234;
+  padding-top: 40px;
+  /* padding: 0 10vw 10vw 10vw; */
+  margin: 0 !important;
+  position: relative;
+}
+
+.courses-projects .course-purple-bg-bottom-right {
+  bottom: -100px;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  height: -webkit-fill-available;
+  display: none;
+}
+
+.courses-projects .testimonial-row {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.project-row {
+  display: flex;
+  overflow-x: auto;
+  margin: 0 -10vw;
+  /* justify-content: center; */
+  overflow-y: hidden;
+}
+
+.project-row::-webkit-scrollbar {
+  display: none;
+}
+
+.courses-projects .projects-title {
+  font-size: 3vw;
+  color: #3cfaff;
+  font-weight: 400;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.projects-description {
+  margin: 0 auto;
+  font-size: calc(7 * var(--vm));
+  color: #f0f0f2;
+  margin-top: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5vw;
+  width: 90%;
+}
+
+.courses-projects .card {
+  background-color: #171636;
+  border: unset;
+  min-height: 36vw;
+  /* min-height: 100%; */
+  /* width: 25vw; */
+  /* max-height: max-content; */
+  cursor: pointer;
+  /* transition: height 0.5s; */
+  /* -webkit-transition: height 0.5s; */
+  overflow: hidden;
+  margin: 0 2vw 3vw;
+}
+
+/* .courses-projects .card:hover .card-img img{
+    opacity: 1 !important;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+} */
+
+.courses-projects .card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* .reveal{
+    display: none;
+} */
+
+.courses-projects .card-img {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.courses-projects .card-body {
+  padding: 1.5vw 1.8vw;
+}
+
+.courses-projects .project-cat {
+  color: #ffffff;
+  font-size: 1.2vw;
+  margin-top: -2.5vw;
+  margin-bottom: 1vw;
+  font-weight: lighter;
+}
+
+.courses-projects .project-title {
+  color: #3cfaff;
+  font-size: 1.6vw;
+  padding-top: unset;
+  font-weight: 500;
+  margin: -1vw 0 1vw;
+}
+
+.courses-projects .project-subtitle {
+  color: #ffffff;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  margin-bottom: 1.5vw;
+}
+
+.courses-projects .project-student img {
+  height: 6vw;
+  right: 1.5vw;
+  margin-top: -3vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: 1.2vw;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border: 0.3vw solid white;
+  border-radius: 20vw;
+}
+
+.courses-projects .student-info {
+  color: #3cfaff;
+  font-size: 1.1vw;
+  text-align: left;
+  font-weight: 300;
+  padding-top: 2vw;
+  position: absolute;
+  bottom: 1.5vw;
+}
+
+.marquee:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+section.is-visible-viewport > * {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.marquee {
+  transform: translateZ(0);
+  width: 1400px;
+  -webkit-animation: d 40s linear infinite;
+  animation: d 40s linear infinite;
+}
+
+.courses-projects .courses-projects-carousel {
+  width: 90%;
+  margin: 0 auto;
+  position: unset;
+}
+.courses-projects .react-multi-carousel-dot-list {
+  bottom: 16px;
+}
+.courses-projects .react-multi-carousel-dot-list li button {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #fff;
+  border-color: #fff;
+}
+.courses-projects
+  .react-multi-carousel-dot-list
+  .react-multi-carousel-dot--active
+  button {
+  background-color: #f74b42;
+  border-color: #f74b42;
+}
+.courses-projects .course-carousel-icon-left {
+  top: unset !important;
+  bottom: 50% !important;
+  z-index: 2;
+  left: 15px;
+}
+.courses-projects .course-carousel-icon-right {
+  top: unset !important;
+  bottom: 50% !important;
+  z-index: 2;
+  right: 15px;
+}
+
+@media (max-width: 768px) and (max-height: 854px) {
+  .courses-projects {
+    padding: 40px 0px;
+  }
+
+  .courses-projects .project-cat {
+    font-size: 3.5vw;
+  }
+
+  .courses-projects .testimonial-row {
+    width: 100%;
+  }
+
+  .courses-projects .card {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    /* margin-top: calc(31 * var(--vp)); */
+  }
+
+  .courses-projects .projects-title {
+    font-size: calc(108 * var(--vp));
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  .courses-projects .project-row {
+    justify-content: unset;
+  }
+
+  .courses-projects .card-body {
+    padding: 2vw 5vw 5vw 5vw;
+  }
+
+  .courses-projects .project-title {
+    font-size: 4.7vw;
+    color: #f74b42;
+  }
+
+  .courses-projects .project-subtitle {
+    font-size: 4vw;
+    margin-bottom: 8vw;
+  }
+
+  .courses-projects .student-info {
+    font-size: 3.3vw;
+    padding-top: 3vw;
+    bottom: 4vw;
+  }
+
+  .courses-projects .project-student img {
+    height: 20vw;
+    margin-top: -10vw;
+    margin-right: 5vw;
+    border: 3px solid white;
+    border-radius: 20vw;
+  }
+
+  .projects-title {
+    font-size: 6vw;
+  }
+
+  .courses-projects .projects-description {
+    font-size: calc(70 * var(--vp));
+    margin-top: calc(13 * var(--vm));
+    margin-bottom: 50px;
+    font-weight: normal;
+  }
+
+  .courses-projects .card:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .courses-projects .react-multi-carousel-track {
+    /* margin-bottom: 60px; */
+  }
+  .courses-projects .courses-projects-carousel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .courses-projects .react-multi-carousel-dot-list {
+    bottom: 0px;
+  }
+  .courses-projects .react-multi-carousel-dot-list li button {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #fff;
+    border-color: #fff;
+  }
+  .courses-projects
+    .react-multi-carousel-dot-list
+    .react-multi-carousel-dot--active
+    button {
+    background-color: #f74b42;
+    border-color: #f74b42;
+  }
+  .courses-projects .course-carousel-icon-left {
+    top: unset !important;
+    bottom: -15px !important;
+    z-index: 2;
+  }
+  .courses-projects .course-carousel-icon-right {
+    top: unset !important;
+    bottom: -15px !important;
+    z-index: 2;
+    /* right: ; */
+  }
+  .courses-projects .course-purple-bg-bottom-right {
+    display: block;
+  }
+}

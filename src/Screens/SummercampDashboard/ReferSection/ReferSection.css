@@ -1,0 +1,194 @@
+.refer_section {
+    background: #020122;
+    padding-bottom: 5rem;
+}
+
+.refer_section .refer_content_box {
+    width: 88%;
+    padding: 4rem 2rem;
+    margin: 0px auto;   
+    background: linear-gradient(90deg, #211EB1 0%, rgba(96, 48, 148, 0.810059) 55.89%, rgba(165, 16, 132, 0.89) 78.6%, rgba(157, 44, 126, 0.742963) 91.02%, rgba(152, 64, 122, 0.64) 99.72%, rgba(25, 110, 208, 0.333333) 99.99%);
+    box-shadow: 3px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.refer_content_box .refer_left_box {
+    text-align: center;
+}
+
+.refer_content_box .refer_left_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.refer_content_box .btn_refer {
+    outline: none;
+    border: none;
+    background-color: #5A6BFF;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    padding: 8px 66px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.refer_content_box .refer_terms {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-family: 700;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .refer_section {
+        padding-bottom: 5rem;
+    }
+    
+    .refer_section .refer_content_box {
+        background: linear-gradient(180deg, #211EB1 0%, rgba(96, 48, 148, 0.810059) 55.89%, rgba(165, 16, 132, 0.89) 78.6%, rgba(157, 44, 126, 0.742963) 91.02%, rgba(152, 64, 122, 0.64) 99.72%, rgba(25, 110, 208, 0.333333) 99.99%);
+        flex-direction: column;
+    }
+    
+    .refer_content_box .refer_left_title {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+    
+    .refer_content_box .btn_refer {
+        padding: 6px 60px;
+        margin-top: 10px;
+    }
+    
+    .refer_content_box .refer_terms {
+        font-size: 12px;
+    }
+
+    .refer_content_box .refer_right_img {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+.mymodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+  }
+  
+  .myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+
+  .referral_box {
+      padding: 5px;
+      position: relative;
+  }
+
+  .referral_box .referral_text {
+      font-family: 'Montserrat',sans-serif;
+      font-size: 20px;
+      margin-top: 40px;
+      padding-left: 5px;
+  }
+
+  .referral_box .link_box {
+      display: flex;
+      height: 100%;
+      margin-top: 20px;
+  }
+
+  .referral_box .link_box .link_text {
+      flex: 2;
+      font-size: 20px;
+      padding: 12px 20px;
+      background: rgb(216, 216, 209);
+      height: 100%;
+      margin: 0;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+  }
+
+  .referral_box .btn_copy {
+      outline: none;
+      border: none;
+      background-color: #5a6bff;
+      font-family: 'Montserrat',sans-serif;
+      color: #fff;
+      padding: 0px 40px;
+      font-size: 18px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+
+  .btn_modal_close {
+      position: absolute;
+      top: 2%;
+      right: 1%;
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      padding-bottom: 4px;
+      color: #131313;
+      font-weight: bold;
+      border-radius: 50px;
+      background: none;
+      outline: none;
+      border: none;
+  }
+  
+@media screen and (max-width: 400px) {
+    .refer_section {
+        padding-bottom: 3rem;
+    }
+    
+    .refer_content_box .refer_left_title {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+    
+    .refer_content_box .btn_refer {
+        padding: 5px 40px;
+    }
+    
+    .refer_content_box .refer_terms {
+        font-size: 10px;
+    }
+}

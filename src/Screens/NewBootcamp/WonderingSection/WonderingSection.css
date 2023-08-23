@@ -1,0 +1,297 @@
+.wondering_section {
+    background-color: #020122;
+    padding-bottom: 5rem;
+}
+
+.wondering_section .wondering_title {
+    font-size: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 5rem 0rem; 
+    text-align: center;
+}
+
+.wondering_section .wondering_text {
+    color: #7ef6fd;
+    font-family: 'Montserrat',sans-serif!important;
+}
+
+.wondering_section .wondering_content {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wondering_content .wc_right_margin {
+    margin-right: 60px;
+}
+
+.wondering_section .wc_top_margin {
+    margin-top: 60px;
+}
+
+.wondering_content .wc_box_1 {
+    width: 100%;
+    height: 302px;
+    background: linear-gradient(106.38deg, #17155C 0%, rgba(23, 21, 92, 0) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.wc_box_1 .wc_left {
+    width: 70%;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.wc_box_1 .wc_title {
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.wc_box_1 .wc_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 0px 0px;
+    font-size: 19px;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+
+.wc_player_img {
+    width: 50%;
+}
+
+.wc_title_margin {
+    margin-left: 20px;
+}
+
+.wc_title_padding {
+    padding: 0px 20px;
+}
+
+.wc_text_padding {
+    padding: 0px 10px!important;
+}
+
+.wc_box_1 .mobile_app_img {
+    height: 70%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .wondering_section {
+        padding-bottom: 1rem;
+    }
+
+    .wondering_section .wondering_title {
+        font-size: 2rem;
+        padding: 5rem 0rem; 
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .wondering_section .wondering_content {
+        flex-direction: column;
+    }
+
+    .wondering_content .wc_box_1 {
+        margin-bottom: 40px;
+    }
+
+    .wondering_section .wc_top_margin {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .wondering_section .wondering_title {
+        font-size: 1.8rem;
+        width: 80%;
+        padding: 50px 0px;
+    }
+
+    .wondering_section .wondering_content {
+        width: 88%;
+    }
+
+    .wc_box_1 .wc_title {
+        font-size: 1.5rem;
+    }
+    
+    .wc_box_1 .wc_text {
+        padding: 0px 0px;
+        font-size: 14px;
+        width: 80%;
+        margin: 20px auto 0px auto;
+    }
+
+    .wc_box_1 .wc_left {
+        padding: 0px;
+    }
+
+    .wc_box_1 .wc_img {
+        width: 50%;
+    }
+
+    .wc_box_1 .mobile_app_img {
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .wc_box_1 .board_img {
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .the_innovator_img {
+        width: 140px;
+        height: 140px;
+    } 
+}
+
+@media screen and (max-width: 420px) {
+    .wc_box_1 .wc_text_padding {
+        padding: 0px!important;
+    }
+    .the_innovator_img {
+        width: 120px;
+        height: 120px;
+    } 
+}
+
+@media screen and (max-width: 390px) {
+    .wondering_section .wondering_title {
+        font-size: 1.5rem;
+        width: 90%;
+        padding: 50px 0px;
+    }
+
+    .wondering_section .wondering_content {
+        width: 88%;
+    }
+
+    .wondering_content .wc_box_1 {
+        height: 220px;
+        padding: 20px 10px;
+    }
+
+    .wc_box_1 .wc_title {
+        font-size: 1.3rem;
+    }
+
+    .wc_title_margin {
+        margin-left: 0px;
+    }
+
+    .wc_text_padding {
+        padding: 0px!important;
+    }
+    
+    .wc_box_1 .wc_text {
+        padding: 0px 0px;
+        font-size: 12px;
+        width: 80%;
+        margin: 20px auto 0px auto;
+    }
+
+    .wc_box_1 .wc_left {
+        padding: 0px;
+    }
+
+    .wc_box_1 .wc_img {
+        width: 50%;
+    }
+
+    .wc_box_1 .mobile_app_img {
+        width: 40%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .wc_box_1 .board_img {
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .wondering_section .wondering_title {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 40px 0px 50px 0px;
+    }
+
+    .wondering_section .wondering_content {
+        width: 88%;
+    }
+
+    .wondering_content .wc_box_1 {
+        height: 200px;
+        padding: 20px 10px;
+    }
+
+    .wc_box_1 .wc_title {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .wc_title_margin {
+        margin-left: 0px;
+    }
+
+    .wc_text_padding {
+        padding: 0px!important;
+    }
+    
+    .wc_box_1 .wc_text {
+        padding: 0px 0px;
+        font-size: 11px;
+        width: 100%;
+        margin: 15px auto 0px auto;
+    }
+
+    .wc_text_padding {
+        padding: 0px 10px!important;
+    }
+
+    .wc_box_1 .wc_left {
+        padding: 0px;
+    }
+
+    .wc_box_1 .wc_img {
+        width: 50%;
+    }
+
+    .wc_box_1 .wc_player_img {
+        width: 55%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .wc_box_1 .mobile_app_img {
+        width: 40%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .wc_box_1 .board_img {
+        width: 40%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .the_innovator_img {
+        width: 120px;
+        height: 120px;
+    } 
+}
+

@@ -1,0 +1,123 @@
+.bonus-container{
+    min-height:100vh;
+    text-align:center;
+    padding:3rem 0 1rem;
+  font-family: Poppins;
+}
+.bonus-container h2{
+    font-weight:600;
+}
+.bonus-container h2 span{
+    color:#0067F0;
+    font-family: Poppins;
+}
+.bonus-container div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:80%;
+    margin:3rem auto;
+}
+.bonus-container div div{
+    display:flex;
+    flex-direction:column;
+    width:27%;
+    margin:2% 2%;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    background: transparent linear-gradient(134deg, #FFFFFF 0%, #E7F1FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 10px #0067F040;
+border-radius: 8px;
+min-height:13rem
+}
+.bonus-container div div h3{
+    width:max-content;
+    position:absolute;
+    top:-6%;
+    padding:2% 15%;
+    color:white;
+    font-size: 1.3rem;
+    background: transparent linear-gradient(68deg, #3163DA 0%, #5988F7 100%) 0% 0% no-repeat padding-box;
+border-radius: 8px;
+font-family: Poppins;
+}
+.bonus-container div div p{
+    font-size:0.85rem;
+    width:75%;
+    margin-bottom:2rem;
+    margin-top:1rem;
+  font-family: Poppins;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.bonus-container div img{
+    height:5.5rem;
+    object-fit: contain;
+    margin-top:15%;
+}
+@media screen and (max-width:980px){
+    .bonus-container div{
+        width:100%;
+    }
+    .bonus-container div div{
+        width:30%;
+        margin:2% 1%;
+    }
+}
+@media screen and (max-width:800px){
+    .bonus-container div div{
+        width:38%;
+        margin:3% 2%;
+    }
+    .bonus-container div div p{
+        font-size: small;
+    }
+}
+@media screen and (max-width:600px){
+    .bonus-container div div{
+        width:45%;
+        margin:4% 1%;
+    }
+    .bonus-container h2{
+        /* font-size: x-large; */
+        width:65%;
+        margin:0 auto 3rem;
+    }
+    .bonus-container div div p{
+        font-size: x-small !important;
+    }
+}
+@media screen and (max-width:490px){
+    .bonus-container div img{
+        height:3.3rem;
+        margin-top:0.75rem;
+    }
+    .bonus-container div div p{
+        font-size:x-small;
+        width:80%;
+        margin-bottom:1%;
+    }
+    .bonus-container div div{
+        width:44%;
+        margin:5% 2%;
+        min-height:11rem;
+        border-radius: 3px;
+    }
+    .bonus-container h2{
+        font-size: x-large;
+      }
+}
+@media screen and (max-width:400px){
+    .bonus-container div div h3{
+        font-size:1rem
+    }
+    .bonus-container div div{
+        width:40%;
+        margin:5% 3%;
+        min-height:10rem;
+    }
+    .bonus-container div img{
+        height:3rem !important;
+    }
+}

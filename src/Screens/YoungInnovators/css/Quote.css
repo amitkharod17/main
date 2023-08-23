@@ -1,0 +1,148 @@
+.quote-box {
+  background: #f2f7fe;
+  width: 50%;
+  padding: 2% 4%; 
+  display: flex;
+  margin: 2% auto 1vh;
+  border-radius: 5px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.quote-box img {
+  height: 10rem;
+}
+.quote-box div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  justify-content: center;
+}
+.quote-box div div {
+  width: 80%;
+  margin: 1rem auto;
+  color: #0067f0;
+}
+.quote-box div h3 {
+  color: #0067f0;
+  width: 60%;
+  margin: 0 auto;
+  margin-left:3rem;
+  text-align: left;
+  padding-bottom: 5px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size:x-large
+}
+.quote-box div p {
+  border-left: 1.5px solid #0067f0;
+  width: 70%;
+  margin: 0 auto;
+  font-size: smaller;
+  text-align: left;
+  padding-left: 2%;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-weight: 500;
+}
+@media screen and (max-width: 1030px) {
+  .quote-box {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .quote-box {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 790px) {
+  .quote-box {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .quote-box img{
+    height:8rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .quote-box {
+    width: 90%;
+    background: #0067f0;
+  }
+  .quote-box div p {
+    border-left: 1px solid white;
+    color: white;
+  }
+  .quote-box div h3 {
+    color: white;
+  }
+  .quote-box div div i {
+    color: white;
+  }
+  .quote-box img {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .quote-box {
+    width: 85%;
+  }
+  .quote-box img {
+    height: 8rem;
+  }
+  .quote-box div {
+    margin-left: 0;
+  }
+  .quote-box div h3{
+    font-size: x-large;
+    margin-left:2rem;
+    width:100%;
+  }
+  .quote-box div p{
+    font-size: x-small;
+  }
+  .quote-box{
+    margin-bottom:2rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .quote-box div p {
+    font-size: 0.75rem;
+    font-weight:400;
+  }
+  .quote-box div h3 {
+    font-size: medium;
+    font-weight:500;
+    margin-left:2.2rem !important;
+  }
+  .quote-box img{
+    height:5rem;
+  }
+  .quote-box div h3{
+  margin-left:2rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .quote-box div p {
+    font-size: 0.75rem;
+    font-weight:400;
+  }
+  .quote-box div h3 {
+    font-size: medium;
+    font-weight:500;
+    margin-left:2.2rem;
+  }
+  .quote-box img{
+    height:5rem;
+  }
+}@media screen and (max-width: 400px) {
+  .quote-box div p {
+    font-size: 0.6rem;
+  }
+  .quote-box div h3 {
+    margin-left:1.8rem !important;
+  }
+  .quote-box img{
+    height:6rem;
+  }
+}

@@ -1,0 +1,84 @@
+.privacy_section {
+    background-color: #fff;
+    text-align: justify;
+    padding: 40px 60px 60px 60px;
+}
+
+.privacy_section h2 {
+    margin-top: 20px;
+}   
+
+@media only screen and (max-width: 475px) {
+    .privacy_section {
+        padding: 40px 30px 40px 30px;
+    }
+    .privacy_section h1 {
+        font-size: 24px;
+    }
+    .privacy_section h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .privacy_section {
+        padding: 40px 30px 40px 30px;
+    }
+    .privacy_section h1 {
+        font-size: 22px;
+    }
+    .privacy_section h2 {
+        font-size: 18px;
+    }
+    .privacy_section p {
+        font-size: 17px;
+    }
+    .privacy_section a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .privacy_section {
+        padding: 40px 20px 40px 20px;
+    }
+    .privacy_section h1 {
+        font-size: 20px;
+    }
+    .privacy_section h2 {
+        font-size: 18px;
+    }
+    .privacy_section p {
+        font-size: 15px;
+    }
+    .privacy_section a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .privacy_section {
+        padding: 40px 20px 40px 20px;
+    }
+    .privacy_section h1 {
+        font-size: 18px;
+    }
+    .privacy_section h2 {
+        font-size: 19px;
+    }
+    .privacy_section p {
+        font-size: 16px;
+    }
+    .privacy_section a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .privacy_section {
+        padding: 40px 10px 40px 10px;
+    }
+    .privacy_section a {
+        font-size: 12px;
+    }
+}

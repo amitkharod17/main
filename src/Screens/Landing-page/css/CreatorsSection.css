@@ -1,0 +1,186 @@
+.creators-section {
+    /* height: 80vh; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 4rem;
+    background-color: #020122;
+    margin-top: 3.2rem;
+  }
+.creators-section .cs-title {
+    color: #3cfaff;
+    font-weight: 400;
+    font-size: 3.2vw;
+    line-height: normal;
+  }
+  .cs-video-card {
+    background: white;
+    box-shadow: 5px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    width: 17.5rem;
+    box-sizing: border-box;
+    height: 20.5rem;
+    margin: 4rem auto 0rem auto; 
+  }
+  .cs-video-card {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #0000001a;
+    position: relative;
+    background-color: #190A4D;
+  }
+  .cs-video-card iframe {
+    height: 12rem;
+    width: 17.5rem;
+    border: none;
+  }
+  .cs-video-card div .project-name {
+    color: #F64B42;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+    padding: 22px 6px 0px 6px;
+  }
+  .cs-video-card div .creator-name, .cs-video-card div .creator-class {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 19px;
+  }
+  .video-testimonials-carousel {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .creators-section .react-multi-carousel-dot--active button{
+    background: #0067F0 !important;
+    border:none;
+  }
+  .creators-section .react-multi-carousel-dot button{
+    background: rgba(0, 103, 240, 0.2);
+    border:none;
+  }
+ 
+  .modal-video-movie-wrap iframe {
+    width: inherit;
+    height: 550px;
+  }
+  
+  .modal-video-close-btn {
+    color:#000!important;
+  }
+  
+  .yt_thumbnail {
+    width: 17.5rem;
+    height: 12rem;
+    cursor: pointer;
+  }
+  
+  .cs-video-card i {
+    font-size: 42px;
+    position: absolute;
+    top: 30%;
+    right: 44%;
+  }
+  
+  .cs-video-card:hover i {
+    color: rgb(255, 0, 0);
+  }
+  
+  @media screen and (max-width:930px){
+    .cs-video-card,.cs-video-card iframe,.text-card{
+      width:17rem;
+  }
+  }
+  @media screen and (max-width:850px){
+    .creators-section {
+      /* margin-top: 2rem; */
+  }
+      .cs-video-card,.cs-video-card iframe,.text-card{
+          width:15rem;
+      }
+      .text-card p{
+        font-size:0.65rem;
+      }
+      .creators-section{
+        min-height: max-content;
+      }
+  }
+  @media screen and (max-width:800px){
+    .creators-section {
+      /* height: 70vh; */
+      margin-top: 1.9rem;
+  }
+      .cs-video-card,.cs-video-card iframe,.text-card{
+          width:18rem;
+      }
+      .cs-video-card,.text-card{
+        margin:2rem auto;
+      }
+      .modal-video-movie-wrap iframe {
+        width: inherit;
+        height: 350px;
+      }
+  }
+  @media screen and (max-width:620px){
+    .creators-section {
+      /* height: 75vh; */
+      /* margin-top: 1rem; */
+  }
+      .cs-video-card,.cs-video-card iframe{
+          width:15rem;
+      }
+      .modal-video-movie-wrap iframe {
+        width: inherit;
+        height: 250px;
+      }
+      .yt_thumbnail {
+        width: 15rem;
+        height: 10rem;
+      }
+      .cs-video-card i {
+        font-size: 42px;
+        position: absolute;
+        top: 30%;
+        right: 40%;
+      }
+  }
+  @media screen and (max-width:550px){
+      .creators-section {
+          /* height: 70vh; */
+          /* margin-top: 1rem; */
+      }
+      .cs-video-card,.cs-video-card iframe{
+          width:14.25rem;
+          height:16.5rem
+      }
+      .cs-video-card iframe{
+          height:10rem;
+      }
+      .creators-section .cs-title  {
+          font-size: 24px;
+      }
+      .cs-video-card div .project-name {
+        font-size: 17px;
+      }
+      .cs-video-card div .creator-name, .cs-video-card div .creator-class {
+        font-size: 14px;
+      }
+  }
+  @media screen and (max-width:490px){
+      .cs-video-card,.cs-video-card iframe{
+          width:12.5rem;
+      }
+  }
+  @media screen and (max-width:440px){
+    .creators-section {
+      /* height: 60vh; */
+      margin-top: 1.2rem;
+  }
+      .cs-video-card,.cs-video-card iframe{
+          width:15rem;
+      }
+  }
+
+  @media screen and (max-width:320px){
+    .creators-section {
+      margin-top: 0rem;
+  }
+  }

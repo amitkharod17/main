@@ -1,0 +1,234 @@
+.new_student_signup {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0a0e2a;
+    padding-bottom: 5rem;
+}
+
+.new_student_signup .new_logo {
+    padding: 30px;
+}
+
+.new_student_signup .new_logo img {
+    width: 12rem;
+    height: 4rem;
+}
+
+.signup_form_container {
+    width: 600px;
+    height: 100%    ;   
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #242355;
+    z-index: 1;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signup_form_container .signup_form_heading {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.signup_form_container .signup_form_heading p {
+    font-size: 12px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.signup_form_container .signup_form_heading h2 {
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 15px 0px 30px 0px;
+}
+
+.signup_form_container form .signup_form_steps {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.signup_form_container form .signup_form_steps .step_1_register {
+    width: 50%;
+    background: #7EF6FD;
+    padding: 8px 0px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.signup_form_container form .signup_form_steps .step_2_payment {
+    width: 50%;
+    border: 1.5px solid #7EF6FD;
+    padding: 4px 0px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #7EF6FD;
+}
+
+.signup_form_container form {
+    width: 80%;
+    margin: 30px auto 0px auto;   
+}
+
+.signup_form_container form input,
+.signup_form_container form input:focus {
+    background-color: inherit;
+    border: 1.5px solid rgba(126, 246, 253, 0.8);
+    outline: none;
+    margin-top: 5px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.signup_form_container form select {
+    background: transparent;
+    border: 1.5px solid rgba(126, 246, 253, 0.8);
+    font-family: 'Montserrat',sans-serif;
+    text-align: left!important;
+    color: #d3cdcd;
+}
+
+.signup_form_container form select:focus {
+    background: rgba(126, 246, 253, 0.8);
+    color: #000;
+}
+
+.signup_form_container form label a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.signup_form_container form label {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 13px;
+    font-weight: 600;
+}
+
+.signup_form_container form .apply_coupon {
+    display: block;
+    text-align: center;
+}
+
+.signup_form_container form .coupon_input {
+    background-color: inherit;
+    border: 1.5px solid rgba(126, 246, 253, 0.8);
+    outline: none;
+    margin-top: 5px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+    width: 60%;
+    height: calc(1.5em + 0.75rem + 2px);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0.375rem 0.75rem;
+}
+
+.signup_form_container form .btn_apply {
+    background-color: #7EF6FD;
+    outline: none;
+    margin-top: 5px;
+    font-family: 'Montserrat',sans-serif;
+    width: 40%;
+    height: calc(1.5em + 0.75rem + 4px);
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.signup_form_container form .btn_pay {
+    width: 100%;
+    background: #7EF6FD;
+    font-family: 'Montserrat',sans-serif;
+    color: #190A4D!important;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 18px auto;
+    padding: 8px 0px;
+}
+
+.coupon_error {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(255, 0, 0);
+}
+
+.coupon_valid {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(102, 255, 0);
+}
+
+
+.signup_form_container form .already_registered {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.signup_form_container form small {
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.signup_form_container form small a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.signup_form_container form small img {
+    width: 16px;
+    height: 16px;
+} 
+
+@media only screen and (max-width: 600px) {
+    .signup_form_container {
+        width: 90%;
+        /* height: 440px; */
+    }
+
+    .signup_form_container form .label_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .signup_form_container form .forgot_pass {
+        margin-left: 0px;
+    }
+
+    .signup_form_container form .not_registered {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .signup_form_container {
+        width: 98%;
+        /* height: 440px; */
+    }
+
+    .signup_form_container .signup_form_heading p {
+        font-size: 10px;
+    }
+    
+    .signup_form_container .signup_form_heading h2 {
+        font-size: 18px;
+        margin: 18px 0px 20px 0px;
+    }
+}

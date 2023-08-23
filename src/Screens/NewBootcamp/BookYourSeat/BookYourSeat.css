@@ -1,0 +1,122 @@
+.bys_section {
+    /* width: 100%; */
+    height: 850px;
+    background: linear-gradient(to right,#1B46BF,#020122); 
+}
+
+.bys_section .bys_bg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bys_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bys_section .bys_content {
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.bys_section .bys_title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    width: 60%;
+    line-height: 3.6rem;
+}
+
+.bys_section .bys_btn_register {
+    outline: none;
+    border: none;
+    background-color: #5A6BFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 75px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .bys_section {
+        height: 450px;
+    }
+
+    .bys_section .bys_bg {
+        background-size: cover;
+    }
+
+    .bys_section .bys_content {
+        margin-left: 70px;
+
+    }
+       
+}
+
+@media screen and (max-width: 600px) {
+
+    .bys_section {
+        height: 80%;
+        position: relative;
+    }
+
+    .bys_section .bys_bg {
+        background: none;
+    }
+
+    .bys_section .bys_content {
+        margin-left: 0px;
+        position: absolute;
+        top: 23%;
+        left: 23%;
+    }
+
+    .bys_section .bys_title {
+        width: 90%;
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+    }
+
+    .bys_section .bys_btn_register {
+        padding: 8px 55px;
+        margin-top: 18px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    .bys_bg_mobile_img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+       
+}
+
+@media screen and (max-width: 400px) {
+    .bys_section .bys_content {
+        top: 20%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .bys_section .bys_title {
+        width: 90%;
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+    .bys_section .bys_btn_register {
+        padding: 6px 32px;
+        margin-top: 18px;
+    }
+    .bys_section .bys_content {
+        top: 20%;
+        left: 20%;
+    }
+}

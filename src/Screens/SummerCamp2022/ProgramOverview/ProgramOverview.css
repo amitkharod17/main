@@ -1,0 +1,155 @@
+.sc22_program_overview_section {
+    /* background-color: #020122; */
+    /* z-index: -3; */
+    height: 700px;
+    position: relative;
+}
+
+.sc22_program_overview {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Overview Background Icon */
+
+.sc22_overview_bg_svg {
+    position: absolute;
+    z-index: -1;
+    top: -30%;
+    right: 0%;
+}
+
+.sc22_overview_bg_svg_1 {
+    position: absolute;
+    z-index: -1;
+    bottom: 25%;
+    right: 10%;
+}
+
+/* Overview Background Icon */
+
+.sc22_po_left_title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: #F64B42;
+}
+
+.sc22_po_left .sc22_po_left_description {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2rem;
+    width: 76%;
+    line-height: 1.6rem;
+}
+
+.sc22_po_left .po_left_desc_span {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+.sc22_po_left .sc22_po_left_btn_dbrochure {
+    background: #5038EA;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+    outline: none;
+}
+
+@media screen and (max-width: 900px) {
+    .sc22_program_overview {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+
+    /* Overview Background Icon */
+
+    .sc22_overview_bg_svg {
+        display: none;
+    }
+
+    .sc22_overview_bg_svg_1 {
+        display: none;
+    }
+
+    /* Overview Background Icon */
+
+    .sc22_po_right {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sc22_overview_img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .sc22_po_left {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sc22_po_left .sc22_po_left_description {
+        margin-top: 2rem;
+        width: 100%;
+        line-height: 1.6rem;
+    }
+
+    .sc22_po_left .sc22_po_left_btn_dbrochure {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sc22_program_overview_section {
+        height: 700px;
+        position: relative;
+    }
+    .sc22_po_left_title {
+        font-size: 2rem;
+    }
+    .sc22_po_right {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sc22_po_left .sc22_po_left_description {
+        font-size: 1rem;
+    }
+    .sc22_po_left .sc22_po_left_btn_dbrochure {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sc22_po_left_title {
+        font-size: 2rem;
+    }
+    .sc22_po_left {
+        width: 90%;
+    }
+    .sc22_po_right {
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sc22_po_left .sc22_po_left_description {
+        font-size: 1rem;
+    }
+    .sc22_po_left .sc22_po_left_btn_dbrochure {
+        font-size: 1.2rem;
+    }
+}

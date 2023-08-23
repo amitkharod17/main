@@ -1,0 +1,782 @@
+.student_dashboard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #eef2f5;
+}
+
+.student_dashboard hr {
+    position: absolute;
+    top: 9%;
+    left: 0%;
+    width: 100%;
+    height: 1px;
+    opacity: 1;
+}
+
+.student_dashboard .dashboard_left_box {
+    background: #020122;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.dashboard_left_box .left_logo {
+    padding: 20px 0px 20px 0px;
+}
+
+.dashboard_left_box .left_item {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.dashboard_left_box .left_item .icon_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.dashboard_right_box {
+    width: 92%;
+    height: 100%;
+    /* overflow-y: auto; */
+}
+
+.dashboard_right_box .right_box_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px;
+    /* position: fixed; */
+}
+
+.dashboard_right_box .right_box_header .school_box {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_right_box .right_box_header .school_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.dashboard_right_box .right_box_header .school_name {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 16px;
+    margin-bottom: 0px;
+}
+
+.dashboard_right_box .right_box_header .logout_box {
+    padding: 0px 20px;
+}
+
+.dashboard_right_box .right_box_header .logout_button {
+    outline: none;
+    border: 2px solid #000;
+    padding: 4px 50px;
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.dashboard_right_box .right_box_header .logout_button:hover {
+    opacity: 0.8;
+}
+
+.dashboard_right_box .right_main_box {
+    display: flex;
+    height: 90%;
+}
+
+.dashboard_right_box .main_left {
+    width: 95%;
+    padding: 30px 50px;
+}
+
+.dashboard_right_box .main_left .greeting_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dashboard_right_box .main_left .schedule_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #020122;
+    font-size: 24px;
+}
+
+.dashboard_right_box .main_left .schedule_content_box {
+    background-color: #1C2367;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.dashboard_right_box .main_left .session_topic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 2rem 0rem;
+}
+
+.dashboard_right_box .main_left .edit_icon {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+.dashboard_right_box .main_left .schedule_time_text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dashboard_right_box .main_left .schedule_session_text {
+    color: rgba(255, 255, 255, 0.5);
+    ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.dashboard_right_box .main_right {
+    width: 20%;
+    height: 100%;
+    background-color: #1C2367;
+    color: #fff;
+    padding: 25px 30px;
+}
+
+.dashboard_right_box .main_right .dates_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dashboard_right_box .main_right .right_item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.curriculum_section {
+    width: 100%;
+    /* padding: 30px 60px 50px 60px; */
+}
+
+.padding_left {
+    padding-left: 0px !important;
+}
+
+.curriculum_section .class_section {
+    background-color: #2923B0;
+}
+
+.curriculum_section .class_section_title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 0px;
+    font-size: 1.5rem;
+    margin: 30px 0px;
+}
+
+.status_text {
+    margin-right: 20px;
+    color: #5162FF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.certificate_box {
+    width: 40%;
+    padding: 1rem 2rem;
+    background: linear-gradient(270.18deg, #5A6BFF 0.74%, #E44DD5 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.certificate_box .certificate_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.certificate_box .certificate_status {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    color: #7EF6FD;
+}
+
+.support_content {
+    margin-top: 5rem;
+}
+
+.support_content .support_item {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.support_content .support_item .support_item_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 1.8rem;
+    margin-bottom: 0px;
+}
+
+.grades_item {
+    display: flex;
+    background-color: #fff;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.grades_item .quiz_text {
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.grades_item .quiz_marks {
+    margin-right: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #5162FF;
+}
+
+.grades_item .quiz_details_text {
+    margin-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.icon_text_hover {
+    color: #FFC700 !important;
+}
+
+/* Student Profile Begin */
+
+.student_profile {
+    overflow-y: auto;
+}
+
+.student_profile_header {
+    color: #fff;
+    background: #5a6bff;
+}
+
+.btn_share_website,
+.btn_visitors {
+    border-radius: 50px;
+    width: 160px;
+    padding: 4px 0px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.btn_share_website {
+    margin-right: 10px;
+}
+
+.student_profile {
+    padding: 30px 0px !important;
+}
+
+.student_basic_detail {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0rem 2rem 2rem 2rem
+}
+
+.student_basic_detail .student_detail_left {
+    width: 30%;
+    padding: 2rem;
+}
+
+.student_profile_pic {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.student_detail_right {
+    width: 70%;
+}
+
+.student_detail_right .student_detail_item {
+    display: flex;
+    align-items: center;
+}
+
+.student_detail_item .student_name_text {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.student_detail_item .grade_text {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.about_me_box {
+    width: 80%;
+    height: 180px;
+    background: #fff;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.about_me_box .about_me_edit_icon {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 5;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.active_edit_box {
+    border: 1px solid rgb(22, 201, 255);
+}
+
+.student_projects {
+    padding: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.student_projects_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.student_projects_row {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.student_projects_row .projects_card {
+    margin-right: 1rem;
+    /* pointer-events: all; */
+}
+
+.projects_card .card-body {
+    padding: 8px 16px !important;
+}
+
+.projects_card .project_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.student_certificates {
+    padding: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.student_certificate_row {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.student_certificate_row .student_certicate_cover {
+    margin-right: 1rem;
+}
+
+.student_level {
+    display: flex;
+}
+
+.student_tech_skills {
+    padding: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.level_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.student_tech_skills_item {
+    margin-top: 1.8rem;
+}
+
+.student_tech_skills_row {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.skill_box {
+    min-width: 200px;
+    min-height: 120px;
+    background-color: #FFA8A8;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.save_profile_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #5a55ff;
+    padding: 8px 60px;
+    border-radius: 50px;
+}
+
+.save_profile_btn:hover {
+    opacity: 0.8;
+}
+
+/* .reset_oveflow {
+    overflow-y: hidden!important;
+} */
+
+.active_overflow {
+
+    overflow-y: auto;
+}
+
+
+/* Student Profile End */
+.item_text {
+    cursor: pointer;
+}
+
+.student_profile_file {
+    position: absolute;
+    cursor: pointer;
+    left: 20%;
+    bottom: -2%;
+}
+
+.file_label {
+    position: absolute;
+    cursor: pointer;
+    left: 42%;
+    bottom: 10%;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
+    border-radius: 50px;
+}
+
+.add_certificates {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border: 2px dashed #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.add_certificates_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.add_skill {
+    width: 200px;
+    height: 120px;
+    background: #fff;
+    border: 2px dashed #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+    cursor: pointer;
+}
+
+.add_skill_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* .certificate_scroll_row {
+    width: 60%;
+} */
+
+.project_edit_box {
+    background-color: #5e6883;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_edit_icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+/* CSS for switch*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.level_switch {
+    width: 54px;
+    height: 28px;
+}
+
+.level_switch_padding {
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+/* Hiding the default checkbox*/
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cccccc;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+/* Before sliding */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.level_slider:before {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.toggle_input:checked+.slider {
+    background-color: #234567;
+}
+
+.toggle_input:focus+.slider {
+    box-shadow: 0 0 1px #564311;
+}
+
+.toggle_input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.edit_project_modal {
+    width: 400px;
+    height: 200px;
+    margin-top: 1rem;
+}
+
+.add_link_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.project_link_input {
+    border: 1px dashed #000;
+    background: #f9f9f9;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 40px;
+    padding: 8px;
+}
+
+.link_input_box {
+    border: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem 1rem;
+}
+
+.modal_btns {
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal_save_btn {
+    width: 50%;
+    background-color: #b0ef8f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+}
+
+.modal_save_cancel {
+    width: 50%;
+    background-color: #f64b42;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    border-bottom-right-radius: 10px;
+}
+
+.skills {
+    margin-top: 8px;
+}
+
+.skills .skill_box:nth-child(2) {
+    background-color: #B0EF8F;
+}
+
+.skills .skill_box:nth-child(3) {
+    background-color: #FFCA42;
+}
+
+.save_profile_box {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    z-index: 5;
+}
+
+/* Input file CSS Start */
+
+.file-input {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+  .file-input .file_label {
+    display: block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.24);
+    /* box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    font-size: 2rem;
+  }
+
+/* Input file CSS End */

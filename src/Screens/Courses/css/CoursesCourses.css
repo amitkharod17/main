@@ -1,0 +1,113 @@
+.courses-courses {
+  /* padding: 0 calc(120 * var(--vp)); */
+  /* overflow-x: auto;
+  flex-wrap: nowrap; */
+  width: 90%;
+  /* display: flex; */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0;
+  /* margin-bottom: 40px; */
+}
+
+.courses-courses-carousel {
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
+
+.courses-course-card {
+  /* max-width: 400px; */
+  filter: brightness(0.3);
+  z-index: 100;
+}
+
+.courses-course-card.active {
+  filter: brightness(1);
+}
+
+.courses-course-card button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 3.5vw;
+  border-bottom: 1px solid #ffffff;
+}
+
+.courses-course-card .course-name {
+  font-size: calc(28 * var(--vp));
+  color: #ffffff;
+  padding-top: calc(45 * var(--vp));
+  font-weight: normal;
+}
+
+.courses-course-card.active button {
+  border-bottom: calc(18 * var(--vp)) solid #f74b42;
+  border-radius: calc(18 * var(--vp));
+  margin-bottom: calc(-18 * var(--vp));
+}
+
+.courses-course-card.active .course-name {
+  color: #f74b42;
+}
+
+.courses-course-card.active .active-line {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #f74b42;
+  height: calc(118 * var(--vp));
+  margin: calc(29.5 * var(--vp)) auto;
+  width: calc(2.5 * var(--vp));
+}
+
+.course-name-line {
+  display: flex;
+  flex-direction: column;
+  margin-right: 85px;
+}
+
+.course-carousel-icon-button {
+  background: transparent;
+  border: 0;
+  color: white;
+  /* font-size: 100px; */
+  position: absolute;
+}
+
+.course-carousel-icon {
+  /* font-size: 30px !important; */
+  width: 50px;
+}
+
+.course-carousel-icon-left {
+  left: 0;
+  top: 25%;
+  transform: rotate(180deg);
+}
+
+.course-carousel-icon-right {
+  right: 0;
+  top: 25%;
+}
+
+@media all and (max-width: 600px) {
+  .courses-courses-carousel {
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+  .courses-course-card .course-name {
+    font-size: calc(88 * var(--vp));
+  }
+  .courses-course-card.active button {
+    border-bottom: calc(68 * var(--vp)) solid #f74b42;
+    border-radius: calc(38 * var(--vp));
+    margin-bottom: calc(-18 * var(--vp));
+  }
+  .course-name-line {
+    flex-direction: column-reverse;
+  }
+  .course-carousel-icon {
+    width: 30px;
+    z-index: 3;
+  }
+}

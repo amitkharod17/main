@@ -1,0 +1,224 @@
+.testimonial-container {
+  min-height: 100vh;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Poppins;
+}
+.testimonial-container h2{
+  font-weight:600;
+  margin-top:2% !important;
+}
+.testimonial-container h2 span {
+  color: #0067f0;
+  font-family: Poppins;
+}
+.video-card,
+.text-card {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 2px 3px 3px rgba(0, 0, 0, 0.5);
+  width: 17.5rem;
+  box-sizing: border-box;
+  height: 16.5rem;
+  margin: 3rem;
+}
+.video-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #0000001a;
+  border-radius: 10px;
+  position: relative;
+}
+.video-card iframe {
+  height: 12rem;
+  width: 17.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.video-card div p {
+  margin:0;
+  padding: 0;
+  color: #0a0e2a;
+  font-family: Poppins;
+  font-size: large;
+}
+.video-card div p:first-child{
+  margin: 0.5% 0 0;
+}
+.text-card {
+  min-height: 25.5rem;
+  padding: 2% 1rem;
+  background: transparent
+    linear-gradient(150deg, #ffffff 0%, #fdfdfd 2%, #eaf0ff 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 10px 15px #0000001a;
+  border-radius: 12px;
+  width:18rem;
+}
+.text-card img {
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+.text-card div {
+  display: flex;
+}
+.text-card div i {
+  color: #0067f0;
+}
+.text-card div hr {
+  border: 0.5px solid #0067f0;
+  width: 80%;
+}
+.text-card p {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight:400;
+  color:black;
+}
+.text-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 3%;
+  font-size:0.6rem;
+  text-align:end;
+  /* margin-top:2%; */
+}
+.text-card-text p {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  /* font-size: small; */
+  font-family: Poppins;
+}
+.video-testimonials-carousel {
+  margin: auto;
+}
+.testimonial-container .react-multi-carousel-dot--active button{
+  background: #0067F0 !important;
+  border:none;
+}
+.testimonial-container .react-multi-carousel-dot button{
+  background: rgba(0, 103, 240, 0.2);
+  border:none;
+}
+
+
+.modal-video-movie-wrap iframe {
+  width: inherit;
+  height: 550px;
+}
+
+.modal-video-close-btn {
+  color:#000!important;
+}
+
+.yt_thumbnail {
+  width: 17.5rem;
+  height: 12rem;
+  cursor: pointer;
+}
+
+.video-card i {
+  font-size: 42px;
+  position: absolute;
+  top: 30%;
+  right: 44%;
+}
+
+.video-card:hover i {
+  color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width:930px){
+  .video-card,.video-card iframe,.text-card{
+    width:17rem;
+}
+}
+@media screen and (max-width:850px){
+    .video-card,.video-card iframe,.text-card{
+        width:15rem;
+    }
+    .text-card p{
+      font-size:0.65rem;
+    }
+    .testimonial-container{
+      min-height: max-content;
+    }
+}
+@media screen and (max-width:800px){
+    .video-card,.video-card iframe,.text-card{
+        width:18rem;
+    }
+    .video-card,.text-card{
+      margin:2rem auto;
+    }
+    .modal-video-movie-wrap iframe {
+      width: inherit;
+      height: 350px;
+    }
+}
+@media screen and (max-width:620px){
+    .video-card,.video-card iframe{
+        width:15rem;
+    }
+    .modal-video-movie-wrap iframe {
+      width: inherit;
+      height: 250px;
+    }
+    .yt_thumbnail {
+      width: 15rem;
+      height: 10rem;
+    }
+    .video-card i {
+      font-size: 42px;
+      position: absolute;
+      top: 30%;
+      right: 40%;
+    }
+}
+@media screen and (max-width:550px){
+    .video-card,.video-card iframe{
+        width:14.25rem;
+        height:14rem
+    }
+    .video-card iframe{
+        height:10rem;
+    }
+    .testimonial-container h2{
+        font-size: x-large;
+        width:85%;
+        margin:auto;
+    }
+}
+@media screen and (max-width:490px){
+    .video-card,.video-card iframe{
+        width:12.5rem;
+    }
+    .text-card{
+      width:20rem;
+    }
+    .text-card > p{
+      font-size:0.7rem;
+      width:85%;
+      margin:auto;
+    }
+    .text-card img{
+      height:5.5rem;
+      width:5.5rem;
+    }
+    /* .video-card div p:last-child{
+      margin: 0 0 2%;
+    } */
+}
+@media screen and (max-width:440px){
+    .video-card,.video-card iframe{
+        width:15rem;
+    }
+    .text-card{
+      min-height: 24rem;
+    }
+}

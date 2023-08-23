@@ -1,0 +1,109 @@
+.backed_startup_section {
+    background: linear-gradient(1.35deg, #080733 -1.27%, rgba(30, 27, 149, 0.97) 98.87%);
+    padding: 4rem 0rem;
+}
+
+.backed_startup_section .bss_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 3.2vw;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.backed_startup_section .bss_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.bss_content .bss_content_item {
+    display: flex;
+    align-items: center;
+}
+
+.bss_content .bss_content_item .bss_conten_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 5rem;
+}
+
+@media  screen and (max-width: 1200px) {
+    .bss_content .bss_content_item .bss_conten_item_text {
+        margin-left: 10px;
+        font-size: 3rem;
+    }
+
+    .bss_content .bss_content_item {
+        justify-content: space-around;
+    }
+
+    .iit_delhi_icon {
+        width: 100px;
+    }
+
+    .govt_dst_icon {
+        width: 250px;
+    }
+}
+
+@media  screen and (max-width: 900px) {
+    .backed_startup_section .bss_content {
+        flex-direction: column;
+    }
+    .bss_content .bss_content_item:nth-child(3) {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .govt_dst_icon {
+        width: 300px;
+    }
+}
+
+@media  screen and (max-width: 900px) {
+    .backed_startup_section .bss_title {
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .backed_startup_section .bss_content {
+        flex-direction: column;
+    }
+    .bss_content .bss_content_item:nth-child(3) {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .govt_dst_icon {
+        width: 300px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .backed_startup_section .bss_title {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bss_content .bss_content_item .bss_conten_item_text {
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+
+    .ihfc_icon {
+        width: 80px;
+    }
+
+    .iit_delhi_icon {
+        width: 80px;
+    }
+
+    .govt_dst_icon {
+        width: 200px;
+    }
+}

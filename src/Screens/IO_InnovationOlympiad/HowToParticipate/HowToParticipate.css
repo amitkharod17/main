@@ -1,0 +1,154 @@
+.olympiad_participate {
+    padding: 5rem 0rem;
+    color: #fff;
+    text-align: center;
+}
+
+.olympiad_participate .olympiad_participate_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 0px!important;
+}
+
+.olympiad_participate .participate_box {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5rem auto 5rem auto;
+}
+
+.olympiad_participate .participate_item {
+    width: 25%;
+}
+
+.olympiad_participate .participate_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 25px auto 0px auto;
+    line-height: 1.2;
+}
+
+.olympiad_participate .step_circle {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    padding: 4px 5px 5px 5px;
+    margin-top: 1.8rem;
+    position: relative;
+}
+
+.olympiad_participate .step_circle:before {
+    content: '';
+    width: 290px;
+    height: 3px;
+    top: 45%;
+    left: 100.5%;
+    position: absolute;
+    background-color: #fff;
+}
+
+.participate_item:nth-child(4) .step_circle:before {
+    display: none;
+}
+
+@media screen and (max-width: 1510px) {
+    .olympiad_participate .step_circle:before {
+        width: 270px;
+        top: 45%;
+        left: 101%;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .olympiad_participate .step_circle:before {
+        width: 262px;
+        top: 45%;
+        left: 101%;
+    }
+}
+
+@media screen and (max-width: 1375px) {
+    .olympiad_participate .step_circle:before {
+        width: 252px;
+        top: 45%;
+        left: 98%;
+    }
+    .olympiad_participate .participate_item_text {
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 25px auto 0px auto;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .olympiad_participate .step_circle:before {
+        width: 230px;
+        top: 45%;
+        left: 99%;
+    }
+    .olympiad_participate .participate_item_text {
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 25px auto 0px auto;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .olympiad_participate .step_circle:before {
+        width: 200px;
+        top: 45%;
+        left: 99%;
+    }
+    .olympiad_participate .participate_item_text {
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 25px auto 0px auto;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .olympiad_participate .participate_item_text {
+        font-size: 1.5rem;
+        width: 70%;
+        margin: 25px auto 0px auto;
+        line-height: 1.2;
+    }
+
+    .olympiad_participate .participate_item {
+        width: 100%!important;
+        padding-bottom: 2rem;
+    }
+    .olympiad_participate .step_circle {
+        display: none;
+    }
+    .olympiad_participate .step_circle:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .olympiad_participate .olympiad_participate_title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .olympiad_participate .olympiad_participate_title {
+        font-size: 1.8rem;
+    }
+}
+
+

@@ -1,0 +1,65 @@
+.why_participate_section {
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.why_participate_box {
+    background: linear-gradient(108.86deg, #312293 6.29%, rgba(49, 34, 147, 0) 94.59%);
+    border-radius: 30px;
+    padding: 5rem 0rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.why_participate_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 0px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.why_participate_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.why_participate_row .why_participate_item {
+    text-align: center;
+}
+
+.why_participate_row .wp_item_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .why_participate_section {
+        padding: 1rem;
+    }
+    .why_participate_title {
+        font-size: 2rem;
+    }
+
+    .why_participate_box {
+        width: 100%;
+    }
+
+    .why_participate_row {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .why_participate_row .why_participate_item {
+        margin-top: 4rem;
+    }
+}

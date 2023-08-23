@@ -1,0 +1,101 @@
+.blog__table {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.blog__form {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__form__input__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__form__inputs {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 440px;
+}
+
+.blog__form__back {
+  background-color: #020122;
+  color: white;
+  padding: 4px 12px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.blog__quil__file {
+  border: 1px solid black;
+  position: relative;
+  margin-top: 20px;
+  height: 100px;
+  overflow: scroll;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+.blog__quil__file::-webkit-scrollbar {
+  display: none;
+}
+
+.blog__quil__file > .button2 {
+  /* position: absolute; */
+  left: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 100%;
+  border: none;
+  background-color: #171636;
+  color: white;
+}
+
+.blog__quil__file > img {
+  object-fit: contain;
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.blog__table__addBtn {
+  float: right;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.blog__table__editBtn,
+.blog__table__addBtn {
+  background-color: #020122;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.blogAdmin__categoryTabs {
+  display: flex;
+}
+
+.blogAdmin__category__tab {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #cfcfcf;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.blogAdmin__category__tab p {
+  margin: 0 4px 0 0;
+}
+
+.blogAdmin__category__tabRemove {
+  cursor: pointer;
+  color: red;
+}

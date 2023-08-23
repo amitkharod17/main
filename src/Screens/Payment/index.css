@@ -1,0 +1,276 @@
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 40px auto;
+}
+
+.payment__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+  margin-top: 24px;
+}
+
+.payment__details__section {
+  margin-bottom: 40px;
+}
+
+.payment__details__section h1 {
+  color: #3cfaff;
+  font-size: calc(48 * var(--vp));
+  font-weight: normal;
+}
+
+.payment__details__section h3 {
+  color: #f2f2f2;
+  font-size: calc(33 * var(--vp));
+  font-weight: 500;
+}
+
+.payment__details__section hr {
+  background-color: #f74b42;
+  border-width: 3px;
+  width: 30%;
+  margin: 0;
+}
+
+.payment__window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+  background-color: #171636;
+  box-shadow: -14px 14px #3cfaff;
+  padding: 36px;
+  height: calc(800 * var(--vp));
+}
+
+.payment__details__courseData {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.payment__details__courseDataSection {
+  display: flex;
+  align-items: center;
+}
+
+.payment__details__courseDataSection label {
+  color: #f2f2f2;
+  font-size: calc(28 * var(--vp));
+}
+
+.payment__details__courseDataSection img {
+  width: 24px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.payment__details__batch h3 {
+  font-weight: normal;
+}
+
+.payment__details__batch label {
+  font-size: calc(33 * var(--vp));
+  margin-left: 8px;
+}
+
+.payment__courseNote {
+  font-size: calc(25 * var(--vp));
+  color: #f2f2f2;
+}
+
+.payment__window__couponContent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.payment__window__couponContent h3 {
+  font-size: calc(33 * var(--vp));
+  color: #f2f2f2;
+  margin-left: 13px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.payment__window__couponContent img {
+  width: 42px;
+  object-fit: contain;
+}
+
+.payment__window__coupon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.payment__window__coupon input {
+  background-color: #0a0e2a;
+  outline: none;
+  padding: 14px;
+  width: 70%;
+  border: none;
+  color: #f2f2f2;
+  font-size: calc(24 * var(--vp));
+}
+
+.payment__window__coupon input::placeholder {
+  color: #b6b7bf;
+}
+
+.payment__window__coupon button {
+  background-color: #3cfaff;
+  text-transform: uppercase;
+  color: #0a0e2a;
+  width: 30%;
+  border: none;
+  padding: 14px 0;
+  font-size: calc(24 * var(--vp));
+}
+
+.payment__window__feeDetails h3 {
+  color: #3cfaff;
+  font-size: calc(33 * var(--vp));
+  font-weight: normal;
+}
+
+.payment__window__feeData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment__window__feeData label {
+  font-size: calc(28 * var(--vp));
+  color: #f2f2f2;
+}
+
+.payment__window hr {
+  background-color: #69697d;
+  border-width: 1px;
+  width: 100%;
+}
+
+.payment__window__btn {
+  background-color: transparent;
+  border: 2px solid #3cfaff;
+  color: #3cfaff;
+  font-size: calc(33 * var(--vp));
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.coupon__valid__text {
+  color: #3cfaff;
+  margin: 0;
+}
+
+.coupon__invalid__text {
+  color: red;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .payment {
+    flex-direction: column;
+    width: 85%;
+    margin: 40px auto;
+  }
+  .payment__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 0;
+  }
+  .payment__window {
+    width: 85%;
+    height: auto;
+    box-shadow: -6px 6px #3cfaff;
+  }
+  .payment__window__btn {
+    padding: 4px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .payment {
+    /* flex-direction: column; */
+    width: 100%;
+    margin: 0 auto 40px auto;
+  }
+
+  .payment__details__section h1 {
+    font-size: calc(20 * var(--vm));
+  }
+
+  .payment__details__section h3 {
+    font-size: calc(18 * var(--vm));
+  }
+
+  .payment__details__section hr {
+    border-width: 3px;
+    width: 30%;
+  }
+
+  .payment__details__courseDataSection label {
+    font-size: calc(15 * var(--vm));
+  }
+
+  .payment__details__courseDataSection img {
+    width: 12px;
+  }
+  .payment__courseNote {
+    font-size: calc(12 * var(--vm));
+  }
+
+  .payment__window__couponContent h3 {
+    font-size: calc(18 * var(--vm));
+  }
+
+  .payment__window__couponContent img {
+    width: 22px;
+    margin-right: 6px;
+  }
+  .payment__window {
+    padding: 24px;
+  }
+  .payment__window__coupon input {
+    padding: 12px 6px;
+    font-size: calc(15 * var(--vm));
+  }
+
+  .payment__window__coupon button {
+    width: 30%;
+    padding: 12px 0;
+    font-size: calc(15 * var(--vm));
+  }
+
+  .payment__window__feeDetails h3 {
+    font-size: calc(18 * var(--vm));
+  }
+  .payment__window__feeData label {
+    font-size: calc(15 * var(--vm));
+  }
+  .payment__window__btn {
+    font-size: calc(20 * var(--vm));
+  }
+  .coupon__invalid__text {
+    margin-bottom: 25px;
+    font-size: calc(65 * var(--vp));
+  }
+  .coupon__valid__text {
+    margin-bottom: 25px;
+    font-size: calc(65 * var(--vp));
+  }
+  .payment__details__section {
+    margin-bottom: 20px;
+  }
+}

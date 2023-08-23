@@ -1,0 +1,106 @@
+.ask_section {
+    background-color: #020122;
+    padding-bottom: 5rem;
+}
+
+.ask_section .ask_title {
+    font-size: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 5rem 0rem 0.5rem 0rem; 
+    text-align: center;
+}
+
+.ask_section .ask_text {
+    color: #7ef6fd;
+    font-family: 'Montserrat',sans-serif!important;
+}
+
+.ask_section .ask_subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif!important;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.ask_section .ask_gif_box {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ask_section {
+        padding-bottom: 2rem;
+    }
+
+    .ask_section .ask_title {
+        font-size: 2rem;
+        padding: 5rem 0rem 0.5rem 0rem; 
+    }
+    .ask_section .ask_subtitle {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+
+    .ask_section .ask_img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ask_section {
+        padding-bottom: 2rem;
+    }
+
+    .ask_section .ask_title {
+        font-size: 1.5rem;
+        padding: 5rem 0rem 0.5rem 0rem; 
+    }
+    .ask_section .ask_subtitle {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ask_section {
+        padding-bottom: 2rem;
+    }
+
+    .ask_section .ask_title {
+        font-size: 1.5rem;
+        padding: 5rem 0rem 0.5rem 0rem; 
+    }
+    .ask_section .ask_subtitle {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .ask_section .ask_gif_box {
+        padding-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 325px) {
+    .ask_section {
+        padding-bottom: 1rem;
+    }
+
+    .ask_section .ask_title {
+        padding: 4rem 0rem 0.5rem 0rem;
+    }
+
+    .ask_section .ask_subtitle {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .ask_section .ask_gif_box {
+        padding-top: 3rem;
+    }
+}

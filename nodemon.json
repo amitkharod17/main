@@ -1,0 +1,24 @@
+{
+  "env": {
+    "PORT": 5000,
+    "MONGODB_CLUSTER": "cluster0-shard-00-00.ahwpv.mongodb.net:27017,cluster0-shard-00-01.ahwpv.mongodb.net:27017,cluster0-shard-00-02.ahwpv.mongodb.net:27017/rancholabs",
+    "MONGODB_USERNAME": "service_client",
+    "MONGODB_PASSWORD": "pDi28IFIfDk3XH75",
+    "JWT_SECRET": "qweqweqwe",
+    "AWS_S3_BUCKET": "rancho-labs-app",
+    "AWS_ACCESS_KEY_ID": "AKIATOISASJ36ACXEWXE",
+    "AWS_SECRET_ACCESS_KEY": "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",
+    "GCLIENT_ID": "462139699296-ugij2j1k8l953om9rko8j2pc2qsjcott.apps.googleusercontent.com",
+    "FB_TOKEN": "2740677982813116|RhAv29QAd34vrgFzucQAFvyffS0",
+    "RAZOR_PAY_KEY_ID": "rzp_live_apax7jkqyekUPt",
+    "RAZOR_PAY_KEY_SECRET": "afnth7m4Q84c38yO1uFdMLPD",
+    "HOST": "https://rancholabs.com",
+    "MAIL": {
+      "host": "email-smtp.ap-south-1.amazonaws.com",
+      "auth": {
+        "user": "rancho.webd@gmail.com",
+        "pass": "rancho@@9137"
+      }
+    }
+  }
+}

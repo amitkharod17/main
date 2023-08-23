@@ -1,0 +1,21 @@
+.sc22_success_section {
+    padding: 5rem 0rem;
+}
+
+.sc22_success_box {
+    width: 40%;
+    margin: 0 auto;
+    background: #FAFAFA;
+    border: 0.5px solid #636363;
+    border-radius: 5px;
+    padding: 5rem 3rem;
+   text-align: center;
+}
+
+.sc22_success_box .sc22_success_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: 3rem;
+}

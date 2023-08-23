@@ -1,0 +1,46 @@
+.main_left {
+    width: 95%;
+    padding: 30px 50px;
+}
+
+.main_left .greeting_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.main_left .schedule_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #020122;
+    font-size: 24px;
+}
+
+.support_content {
+    margin-top: 5rem;
+}
+
+.support_content .support_item {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.support_content .support_item .support_item_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 1.8rem;
+    margin-bottom: 0px;
+    color: #72757C;
+}
+
+@media screen and (max-width: 900px) {
+    .main_left {
+        width: 95%;
+        padding: 30px 30px;
+    }
+    .support_content .support_item .support_item_text {
+        font-size: 1.2rem!important;
+    }
+}

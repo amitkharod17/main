@@ -1,0 +1,42 @@
+.details > th {
+  background: rgb(71 162 223 / 25%);
+  color: #f64b42;
+  font-family: 'Montserrat' !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #f64b42;
+  padding: .25em;
+}
+
+.details > td {
+  font-family: 'Montserrat' !important;
+
+}
+
+.details-small > td{
+  font-size: .7em;
+
+}
+.details-small > th{
+  font-size: 1em;
+
+}
+
+.cta-button {
+  background-color: #5038ea;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 1.2em; */
+  /* line-height: 39px; */
+  text-align: center;
+
+  color: #ffffff;
+  border-radius: 10px;
+}

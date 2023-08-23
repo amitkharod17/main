@@ -1,0 +1,107 @@
+.registered_successful_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #0a0e2a;
+}
+
+.registered_successful_section .new_logo {
+    padding: 30px;
+}
+
+.registered_successful_section .new_logo img {
+    width: 12rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.registered_successful_content {
+    width: 460px;
+    border-radius: 4px;
+    background-color: #242355;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.registered_successful_content .registered_successful_container {
+    text-align: center;
+}
+
+.registered_successful_content .registered_successful_container img {
+    width: 25%;
+}
+
+.registered_successful_content .registered_successful_heading {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.registered_successful_content .registered_successful_heading p {
+    font-size: 12px;
+    color: #d3cdcd;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.registered_successful_content .registered_successful_heading h2 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 550;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.registered_successful_content form {
+    width: 80%;
+    margin: 30px auto 10px auto;   
+}
+
+.registered_successful_content form button {
+    width: 100%;
+    background: #7EF6FD;
+    font-family: 'Montserrat',sans-serif;
+    color: #190A4D!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 18px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .microsoft_icon {
+        width: 40px!important;
+        height: 40px!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .registered_successful_content {
+        width: 90%;
+        height: 440px;
+    }
+
+    .registered_successful_content .registered_successful_heading h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .registered_successful_section {
+        background: linear-gradient(to bottom,#0a0e2a 400px,#fff 30%);
+    }
+
+    .registered_successful_content .registered_successful_heading p {
+        font-size: 10px;
+    }
+
+    .registered_successful_content .registered_successful_heading h2 {
+        font-size: 18px;
+        width: 70%;
+    }
+
+}

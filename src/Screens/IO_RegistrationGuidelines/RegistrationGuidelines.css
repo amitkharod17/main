@@ -1,0 +1,213 @@
+.reg_guide_section {
+    color: #fff;
+    font-family: 'Montserrat',sans-serif!important;
+    padding-bottom: 5rem;
+    background-color: #020122;
+}
+
+.reg_guide_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem;
+    height: 400px;
+}
+
+.reg_guide_hero .btn_new_team,
+.reg_guide_hero .btn_join_team {
+    width: 28%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #5A6BFF;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.reg_guide_hero .or_text {
+    margin: 0rem 3rem;
+    font-size: 2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.guidelines_box .guidelines_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.guidelines_box .guidelines_content {
+    width: 90%;
+    background-color: #190A4D;
+    border-radius: 10px;
+    margin: 5rem auto 0rem auto;
+    padding: 4rem 3rem;
+}
+
+.guidelines_content .guidelines_item .guidelines_content_title {
+    font-size: 2.2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.guidelines_content .guidelines_item .guidelines_points {
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+.guidelines_content .guidelines_item .guidelines_point {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    width: 95%;
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+    .reg_guide_hero .btn_new_team,
+    .reg_guide_hero .btn_join_team {
+        width: 35%;
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .reg_guide_hero {
+        height: 320px;
+    }
+
+    .reg_guide_hero .btn_new_team,
+    .reg_guide_hero .btn_join_team {
+        width: 35%;
+        font-size: 1.5rem;
+        padding: 10px 0px;
+    }
+
+    .reg_guide_hero .or_text {
+        margin: 0rem 2rem;
+        font-size: 2rem;
+    }
+
+    .guidelines_box .guidelines_title {
+        font-size: 2.5rem;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_content_title {
+        font-size: 2rem;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 600;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_point {
+        font-size: 1.4rem;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reg_guide_hero {
+        height: 350px;
+        flex-direction: column;
+    }
+
+    .reg_guide_hero .btn_new_team,
+    .reg_guide_hero .btn_join_team {
+        width: 50%;
+        font-size: 1.5rem;
+        padding: 10px 0px;
+    }
+
+    .reg_guide_hero .or_text {
+        margin: 2rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .guidelines_box .guidelines_title {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .guidelines_box .guidelines_content {
+        width: 90%;
+        margin: 4rem auto 0rem auto;
+        padding: 3rem 2rem;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_content_title {
+        font-size: 1.8rem;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_point {
+        font-size: 1.2rem;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .reg_guide_hero {
+        height: 350px;
+        flex-direction: column;
+    }
+
+    .reg_guide_hero .btn_new_team,
+    .reg_guide_hero .btn_join_team {
+        width: 80%;
+        font-size: 1.5rem;
+        padding: 10px 0px;
+    }
+
+    .reg_guide_hero .or_text {
+        margin: 2rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .guidelines_box .guidelines_title {
+        font-size: 2rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
+
+    .guidelines_box .guidelines_content {
+        width: 90%;
+        margin: 3rem auto 0rem auto;
+        padding: 2rem 1rem;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_content_title {
+        font-size: 1.6rem;
+    }
+
+    .guidelines_content .guidelines_item .guidelines_point {
+        font-size: 1.1rem;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .reg_guide_hero .btn_new_team,
+    .reg_guide_hero .btn_join_team {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+    .reg_guide_hero .or_text {
+        margin: 2rem 0rem;
+        font-size: 1.4rem;
+    }
+    .guidelines_box .guidelines_title {
+        margin-top: 1.6rem;
+    }
+    .guidelines_box .guidelines_content {
+        width: 95%;
+        margin: 3rem auto 0rem auto;
+        padding: 2rem 0.5rem;
+    }
+    .guidelines_content .guidelines_item .guidelines_content_title {
+        font-size: 1.4rem;
+    }
+}

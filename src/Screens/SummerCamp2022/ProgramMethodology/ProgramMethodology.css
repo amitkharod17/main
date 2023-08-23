@@ -1,0 +1,119 @@
+.sc22_program_methodology {
+    text-align: center;
+    height: 900px;
+    position: relative;
+    /* background-color: #020122; */
+    /* z-index: -2; */
+}
+
+/* Program Methodology Icon */
+.sc22_pm_bg_svg {
+    position: absolute;
+    z-index: -1;
+    top: -38%;
+    left: 0%;
+}
+
+.sc22_pm_bg_svg_2 {
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 4%;
+}
+
+.sc22_pm_bg_dot {
+    width: 12px;
+    height: 12px;
+    background: rgba(71, 162, 223, 0.34);
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    left: 3%;
+    border-radius: 50%;
+}
+
+/* Program Methodology Icon */
+
+.sc22_pm_title {
+    color: #F64B42;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.sc22_pm_content {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sc22_pmc_item .sc22_pmc_item_title {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.sc22_pmc_item .sc22_pmc_item_text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Program Methodology Icon */
+    .sc22_pm_bg_svg {
+        display: none;
+    }
+
+    .sc22_pm_bg_svg_2 {
+        display: none;
+    }
+
+    .sc22_pm_bg_dot {
+        display: none;
+    }
+
+    /* Program Methodology Icon */
+    .sc22_pmc_item .sc22_pmc_item_text {
+        margin: 0 auto 2rem;
+    }
+
+    .sc22_pm_title {
+        margin: 5rem auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .sc22_program_methodology {
+        height: 600px;
+    }
+
+    .sc22_pm_title {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .sc22_pmc_item .sc22_pmc_item_title {
+        font-size: 2rem;
+        margin: 2rem 0rem;
+    }
+    
+    .sc22_pmc_item .sc22_pmc_item_text {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .sc22_pm_learn {
+        width: 150px;
+        height: 150px;
+    }
+}

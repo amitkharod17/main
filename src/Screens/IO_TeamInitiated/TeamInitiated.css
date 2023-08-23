@@ -1,0 +1,38 @@
+.io_team_initiated {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 540px;
+    background-color: #020122;
+    padding-bottom: 2rem;
+}
+
+.io_team_initiated .team_initiated_title,
+.io_team_initiated .details_item {
+    font-size: 2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.io_team_initiated .team_login_details {
+    margin: 3rem 0rem;
+    text-align: center;
+}
+
+.io_team_initiated .details_item {
+    line-height: 2.2rem;
+}
+
+.io_team_initiated .btn_team_login {
+    background: #2923B0;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.2rem 5rem;
+    font-size: 1.8rem;
+}

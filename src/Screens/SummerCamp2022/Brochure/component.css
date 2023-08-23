@@ -1,0 +1,14 @@
+.brochure-box {
+  background: linear-gradient(
+    100.27deg,
+    rgba(41, 35, 176, 0.2888) -20.41%,
+    rgba(41, 35, 176, 0.0722) 38.96%,
+    rgba(41, 35, 176, 0.204646) 114.33%
+  );
+  border-radius: 20px;
+}
+
+.cta-button-white{
+    background-color: white;
+    color: #2923B0!important;
+}

@@ -1,0 +1,21 @@
+.terms_section {
+    background-color: #fff;
+    text-align: justify;
+    padding: 40px 60px 60px 60px;
+}
+
+.terms_section h3 {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 475px) {
+    .terms_section {
+        padding: 40px 30px 40px 30px;
+    }
+    .terms_section h2 {
+        font-size: 24px;
+    }
+    .terms_section h3 {
+        font-size: 24px;
+    }
+}

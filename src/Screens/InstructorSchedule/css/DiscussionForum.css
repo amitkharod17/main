@@ -1,0 +1,250 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  /* position: unset !important; */
+}
+
+.ReactModal__Content.--after-open::-webkit-scrollbar {
+  display: none;
+}
+
+.discuss {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  bottom: 39px;
+}
+
+.discuss-container {
+  top: 2px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.discuss-container > h3 {
+  color: white;
+  background-color: #fb352a;
+  padding: 5px;
+  margin-left: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  width: 247px;
+  text-align: center;
+}
+
+.discuss-modal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.discuss-modal-container {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  border-bottom: 1px solid #bbb;
+}
+
+.discuss-modal-container > p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.discuss-search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.discuss-search-container {
+  display: flex;
+  background-color: #16137ac7;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.discuss-search-container > input {
+  background-color: transparent;
+  margin-left: 3px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #ffff;
+}
+
+.discuss-batches {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.discuss-batch {
+  border-bottom: 1px solid #bbb;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.discuss-batch > p {
+  margin-bottom: 0px;
+}
+
+.discuss-batch > .MuiSvgIcon-root {
+  font-size: small;
+  color: aqua;
+}
+
+.chat-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.chat-name-container {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #bbb;
+}
+
+.chat-name-container > p {
+  margin-bottom: 0;
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.chat-name-container > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.chat-name-container > span > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.chat-messages {
+  padding: 15px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.message-container-time {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-container-time > p {
+  margin-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.message-contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.message-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-top > p {
+  display: flex;
+  padding: 5px;
+  background-color: rgba(77, 77, 77, 0.808);
+  color: #fff;
+  width: 70%;
+  border-radius: 5px;
+  font-weight: 200;
+  letter-spacing: 0.05rem;
+}
+
+.you > small {
+  margin-left: auto;
+}
+
+.you > p {
+  display: flex;
+  margin-left: auto;
+  background-color: #16137ac7;
+  border: 1px solid #ddd;
+  font-weight: 200;
+  letter-spacing: 0.05rem;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-top: 1px solid #bbb;
+  width: 100%;
+}
+
+.chat-footer > form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.chat-footer > form > .chat-input {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: #16137ac7;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.chat-footer > form > .chat-input > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+}
+
+.chat-input > span {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.send-message {
+  display: flex;
+  align-items: center;
+}
+
+.send-message > input {
+  display: none;
+}
+
+.send-message > .send {
+  display: none;
+}

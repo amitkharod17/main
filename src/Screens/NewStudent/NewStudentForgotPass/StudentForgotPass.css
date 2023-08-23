@@ -1,0 +1,67 @@
+.modal_box {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.modal_box .modal_close_btn {
+    position: absolute;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    top: -5%;
+    right: -3%; 
+    color: rgb(117, 113, 113);
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px;
+}
+
+.modal_box .submitted_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    width: 95%;
+    margin: 40px auto 30px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.modal_box .login_btn_box {
+    text-align: center;
+}
+
+.modal_box .forgot_btn_login {
+    outline: none;
+    border: none;
+    padding: 10px 100px;
+    color: #fff;
+    background-color: #5a6bff;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.modal_box .forgot_btn_login:hover {
+    color: #fff!important;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 400px) {
+    .modal_box {
+        width: 300px;
+        height: 320px;
+        position: relative;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .modal_box {
+        width: 250px;
+        height: 340px;
+        position: relative;
+        padding-top: 20px;
+    }
+}

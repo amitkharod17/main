@@ -1,0 +1,108 @@
+.olympiad_hero {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px 150px 65px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #12105E;
+}
+
+.olympiad_hero .olympiad_left_title {
+    color: #3CFAFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 30%;
+    padding-top: 2rem;
+}
+
+.olympiad_hero .olympiad_left_subtitle {
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin: 25px 0px 25px 0px;
+}
+
+.olympiad_hero .olympiad_btn_enroll {
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #A42798;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 4px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.hero_div_right .hero_right_img {
+    width: 100%;
+    padding-right: 50px;    
+}
+
+@media (min-width: 1024px) and (max-width: 1248px) {
+    .hero_div_right .hero_right_img {
+        width: 95%;   
+        padding-right: 0px; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero_div_right .hero_right_img {
+        width: 100%;   
+        padding-right: 0px; 
+    }
+    .olympiad_hero .olympiad_left_title {
+        font-size: 3rem;
+        width: 50%;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .olympiad_hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 2rem 5rem 2rem;
+    }
+    .olympiad_hero .olympiad_left_title {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .hero_div_right .hero_right_img {
+        width: 90%;
+        margin-top: 3rem;  
+        padding-right: 0px;  
+    }
+    .olympiad_hero .olympiad_left_subtitle {
+        margin: 20px 0px 20px 0px;
+    }
+    .olympiad_hero .olympiad_btn_enroll {
+        padding: 6px 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .olympiad_hero {
+        padding: 1rem 2rem 5rem 2rem;
+    }
+    .olympiad_hero .olympiad_left_title {
+        font-size: 2.4rem;
+    }
+    .olympiad_hero .olympiad_left_subtitle {
+        font-size: 1.3rem;
+        margin: 15px 0px;
+    }
+    .olympiad_hero .olympiad_btn_enroll {
+        padding: 6px 25px;
+        font-size: 1rem;
+    }
+    .hero_div_right .hero_right_img {
+        margin-top: 2rem;  
+        padding-right: 0px;  
+    }
+}

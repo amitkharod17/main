@@ -1,0 +1,29 @@
+.sc22_certificate_section {
+    height: 1000px;
+    background: #020122;
+}
+
+.sc22_cs_title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: normal;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0px auto;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 30%;
+    padding-top: 2rem;
+}
+
+.sc22_cs_content {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sc22_certificate_img {
+    width: 80%;
+    height: 100vh;
+    object-fit: contain;
+}

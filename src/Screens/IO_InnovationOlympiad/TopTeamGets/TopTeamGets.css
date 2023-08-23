@@ -1,0 +1,80 @@
+.olympiad_topteam {
+    padding: 5rem 0rem;
+    color: #fff;
+    background-color: #312293;
+    text-align: center;
+}
+.olympiad_topteam .olympiad_topteam_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 0px!important;
+}
+
+.olympiad_topteam .topteam_gets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.olympiad_topteam .topteam_gets .topteam_item {
+    width: 33.3%;
+}
+
+.olympiad_topteam .topteam_gets .topteam_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 25px auto 0px auto;
+    line-height: 1.2;
+}
+
+.olympiad_topteam .topteam_gets .topteam_item_text:nth-child(2) {
+    width: 65%!important;
+}
+
+@media screen and (max-width: 1024px) {
+    .olympiad_topteam .topteam_gets .topteam_item_text {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .olympiad_topteam .olympiad_topteam_title {
+        font-size: 2rem;
+    }
+    .olympiad_topteam .topteam_gets {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+    .olympiad_topteam .topteam_gets .topteam_item {
+        width: 95%;
+        margin-top: 4rem;
+    }
+    .olympiad_topteam .topteam_gets .topteam_item_text {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .olympiad_topteam .topteam_gets .topteam_item_text:nth-child(2) {
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .olympiad_topteam .topteam_gets .topteam_item_text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .olympiad_topteam .olympiad_topteam_title {
+        font-size: 1.8rem;
+    }
+    .olympiad_topteam .topteam_gets .topteam_item_text {
+        font-size: 1.4rem;
+    }
+}

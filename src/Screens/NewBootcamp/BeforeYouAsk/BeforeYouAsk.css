@@ -1,0 +1,197 @@
+.byask-container {
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #020122;
+    color: #fff;
+    padding: 0px 0px 30px 0px;
+  }
+  .byask-container h2 {
+    margin: 0;
+    font-weight: 600;
+  }
+  .byask-container .byask_title {
+    font-size: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 2rem 0rem 0.5rem 0rem; 
+    text-align: center;
+  }
+  .byask_text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif!important;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .byask-container h2 span {
+    color: #0067f0;
+    font-family: Poppins;
+  }
+  .byask-container p {
+    /* font-size: smaller; */
+    margin: 1% 0 0;
+    /* color: #515151; */
+    opacity: 1;
+    font-family: Poppins;
+    font-size:1.1rem;
+  }
+  .byask-container .point_text {
+      color: #fff!important;
+      font-family: 'Montserrat',sans-serif;
+  }
+  .ask_details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    margin:3% auto 0;
+  }
+  .ask_details div {
+    width: 50%;
+    margin-top: 2%;
+  }
+  .ask_details div div {
+    display: flex;
+    width: 100%;
+    margin: 2% 0;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .ask_details div div div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+  }
+  .ask_details div div div h5 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Poppins;
+    font-weight:600;
+    font-size:x-large
+  }
+  .byask-container .byask_detail_title {
+      font-family: "Montserrat",sans-serif;
+  }
+  .ask_details div div div p {
+    width: 95%;
+    margin-right: auto;
+    font-family: Poppins;
+    font-size:0.9rem;
+    color: #515151;
+  }
+  .ask_details div div img {
+    height: 3.5rem;
+  }
+  .ask_details img {
+    height: 20rem;
+  }
+  @media screen and (max-width:980px){
+    .ask_details{
+      width:100%;
+    }
+    .byask-container{
+      min-height:max-content;
+      /* margin-bottom:5%; */
+    }
+  }
+  @media screen and (max-width:780px){
+    .ask_details img {
+      height: 15rem;
+    }
+    .ask_details div div div h5 {
+      font-size: large;
+    }
+    .ask_details div div div p {
+      font-size: 0.7rem;
+    }
+    .byask-container .byask_title {
+        font-size: 2rem;
+      }
+      .byask_text {
+        font-size: 15px!important;
+      }
+  }
+  @media screen and (max-width:680px){
+    .ask_details div div div p {
+      font-size: x-small;
+    }
+    .ask_details div div img {
+      height: 3rem;
+    }
+    .ask_details{
+      width:90%;
+    }
+  }
+  @media screen and (max-width:680px){
+    .ask_details{
+      flex-direction: column-reverse;
+    }
+    .ask_details div {
+      width: 90%;
+      margin: auto;
+    }
+    .ask_details div div div h5 {
+      font-size: larger;
+    }
+    .ask_details div div div p {
+      font-size: medium;
+      width:100%;
+    }
+    .ask_details div div img {
+      height: 4rem;
+    }
+    .byask-container>p{
+      width:80%;
+      font-size: medium;
+      margin:2rem auto;
+    }
+    .ask_details img {
+      height: 20rem;
+      margin:1rem auto;
+    }
+    .byask-container .byask_title {
+        font-size: 2rem;
+      }
+      .byask_text {
+        font-size: 15px!important;
+      }
+  }
+  @media screen and (max-width:460px){
+    .byask-container h2{
+      font-size:x-large
+    }
+    .byask-container p{
+      font-size:x-small;
+      margin-top:1rem;
+    }
+    .ask_details img {
+      height: 15rem;
+    }
+    .ask_details div div div p {
+      font-size: x-small;
+      margin-top:0;
+    }
+    .ask_details div div div h5 {
+      font-size: larger;
+    }
+    .ask_details div div img {
+      height: 2.5rem;
+    }
+    .ask_details div div{
+      padding:0;
+      height:6.5rem;
+      justify-content: center;
+    }
+    .byask-container .byask_title {
+        font-size: 2rem;
+        padding-top: 3rem;
+      }
+      .byask_text {
+        font-size: 15px!important;
+      }
+  }
+  
+  

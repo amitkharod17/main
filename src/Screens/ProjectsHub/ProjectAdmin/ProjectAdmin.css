@@ -1,0 +1,425 @@
+.project_admin {
+    height: 100vh;
+    background-color: #f1f8ff;
+    display: flex;
+}
+
+.project_admin_left {
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.project_admin_left .pa_left_item {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project_admin_left .pa_item_tab {
+    width: 100%;
+    padding: 10px 0px 10px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.project_admin_left .pa_item_tab:hover {
+    background-color: #2044A1;
+    color: #fff;
+}
+
+.pa_item_logout {
+    color: #ff6937!important;
+}
+
+.project_admin_right {
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.project_admin_right .pa_right_content {
+    padding: 3rem 3rem;
+}
+
+.project_admin_right .add_project_btn {
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    background: #2044A1;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.project_admin_right .add_project_icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.pa_search_project {
+    width: 50%;
+    padding: 8px;
+    color: #000!important;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+.pa_search_btn {
+    height: 80%;
+    background-color: #5a55ff;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0px 20px;
+}
+
+.project_admin_right .projects_cover {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects_cover .project_card {
+    margin: 2rem 2rem 0rem 0rem;
+    min-height: 18rem;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.project_cover_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project_card .project_title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    color: #000;
+}
+
+.view_span,
+.likes_span {
+    display: inline-block;
+    color: #939393;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.view_icon,
+.like_icon {
+    color: #000;
+    margin-right: 5px;
+}
+
+.project_card .view_span {
+    margin-left: 8rem;
+}
+
+.pc_edit_cover {
+    width: 42px;
+    height: 42px;
+    background-color: #5E6883;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white_edit_icon {
+    cursor: pointer;
+}
+
+/* Tags Component Begin */
+
+.tags_label {
+    color: rgba(2, 1, 34, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.tags_input {
+    width: 80%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: #000;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+.tags_save_cover {
+    width: 80%;
+}
+
+.remove_component_image {
+    width: 26px;
+    height: 28px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.projects_tag_list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_tag_list_item {
+    width: 30%;
+    background: #2C40FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.tag_list_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Tags Component End */
+
+/* Author Component Begin */
+
+.tags_input {
+    color: #000!important;
+}
+
+.author_delete_icon {
+    position: absolute;
+    right: 22%;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+.author_circle_plus_icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.author_upload_image_text {
+    margin: 4rem auto 0rem auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.saved_message {
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #5a55ff;
+    font-size: 1.2rem;
+}
+
+.project_authors_item {
+    width: 85%;
+    background: #D8E7FF;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.pa_item_left {
+    width: 25%;
+}
+
+.pa_item_right {
+    width: 75%;
+    padding: 0rem 1rem;
+}
+
+.project_authors_item .pa_item_heading {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgba(2, 1, 34, 0.5);
+    margin-bottom: 8px;
+}
+
+.project_authors_item .pa_item_name {
+    background: #fff;
+    color: #020122;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.project_authors_item .pa_item_about {
+    height: 170px;
+    background: #fff;
+    color: #020122;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+    overflow-y: auto;
+}
+
+.pa_author_pic_cover {
+    background: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.pa_author_pic {
+    width: 102px;
+    height: 102px;
+    object-fit: cover;
+}
+
+.author_edit_icon,
+.author_remove_icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.author_edit_modal {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.author_edit_modal .edit_author_input {
+    width: 100%;
+}
+
+.author_edit_modal .edit_author_file_input {
+    width: 100%;
+}
+
+.author_edit_modal .edit_author_save_btn {
+    width: 100%;
+}
+
+.edit_author_circle_plus {
+    top: 45%;
+    left: 50%;
+}
+
+.edit_author_upload_image_text {
+    left: 50%;
+}
+
+.edit_author_form_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.edit_close_author_modal {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+/* Author Component End */
+
+/* Add Component Begin */
+.component_file_input {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.pc_list_item {
+    width: 80%;
+    background: #020122;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.pc_list_item .pc_list_item_left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.pc_list_item .pc_list_item_right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pc_item_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pc_item_component_pic {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.pc_item_img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Add Component End */

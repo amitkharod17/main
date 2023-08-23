@@ -1,0 +1,282 @@
+.why-container {
+  min-height: 100vh;
+  text-align: center;
+  font-family: Poppins;
+}
+.why-container h2{
+  font-weight: 600;
+  letter-spacing: 0.5; /* code_by_me */
+  font-family: Poppins; /* code_by_me */
+}
+.why-container h2 span {
+  color: #0067f0;
+  font-family: Poppins;
+}
+.why-container p {
+  width: 80%;
+  margin: 1% auto;
+  font-family: Poppins;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.why-card {
+  width: 26rem;
+  background: white;
+  text-align: left;
+  padding: 3.5% 4% 2% 5%;
+  box-sizing: border-box;
+  /* margin:5rem auto; */
+  border-radius: 5px;
+  margin-top:1rem;
+  min-height: 16.5rem;
+}
+.why-card h3 {
+  color: #FF8037;
+  font-size: 1.35rem;
+  margin-top: 0;
+  margin-bottom:4%;
+  padding-top: 0;
+  font-family: Poppins !important;
+  font-weight: 600;
+}
+
+.gh-1{
+  margin-top:-1.5rem !important;
+}
+.gh-3{
+  margin-bottom:2rem !important
+}
+.gh-1 .why-card h3,.gh-1 .why-card div div i,.gh-1 .chart div p{
+  color: #FF8037;
+}
+.gh-1 .why-card div div hr {
+  width: 90%;
+  border: 0.5px solid #FF8037;
+}
+.gh-1 .why-card{
+  box-shadow: 0px 0px 15px #FF803740;
+}
+.gh-1 .chart div p{
+  background: rgba(255, 128, 55, .2);
+  color:black;
+  font-family: Poppins;
+}
+.gh-2 .why-card h3,.gh-2 .why-card div div i,.gh-2 .chart div p{
+  color: #5452C9;
+}
+.gh-2 .why-card div div hr {
+  width: 90%;
+  border: 0.5px solid #5452C9;
+}
+.gh-2 .why-card{
+  box-shadow: 0px 0px 15px #6F48D14D;
+}
+.gh-2 .chart div p{
+  background: rgba(82, 83, 201,.2);
+  color:black;
+  font-family: Poppins;
+}
+.gh-3 .why-card h3,.gh-3 .why-card div div i,.gh-3 .chart div p{
+  color: #3BB8BB;
+}
+.gh-3 .why-card div div hr {
+  width: 90%;
+  border: 0.5px solid #3BB8BB;
+}
+.gh-3 .why-card{
+  box-shadow: 0px 0px 15px #28D8B559;
+}
+.gh-3 .chart div p{
+  background: rgba(57, 183, 188, .2);
+  color:black;
+  font-family: Poppins;
+}
+.why-card p {
+  font-size: 0.7rem;
+  color: #666666;
+  width: 100%;
+  margin-bottom: 3%;
+  font-family: Poppins;
+}
+.why-card div {
+  text-align: left;
+}
+.why-card div div {
+  display: flex;
+  align-items: center;
+}
+.why-card div p {
+  font-size:0.9rem;
+  margin: -2% 0 -2% 1%;
+  padding: 0;
+  width: 100%;
+  /* margin: auto; */
+  color: black;
+  font-family: Poppins; 
+  font-weight: 500;
+}
+.chart-p {
+  width: max-content;
+  font-size: small;
+  font-family: Poppins;
+  font-weight:520;
+  font-size:0.6rem !important;
+}
+.chart div p {
+  width: max-content;
+  border-radius: 5px;
+  padding: 2% 1rem;
+  text-align: left;
+  color:black;
+  font-family: Poppins;
+  font-weight:600;
+  font-size:0.75rem !important;
+}
+.gh-container {
+  display: flex;
+  width: 80%;
+  margin: -2% auto;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 23rem;
+}
+.why-quote{
+  font-family: Poppins;
+}
+.chart{
+  width:20rem !important;
+  height:16rem !important;
+}
+@media screen and (max-width:970px){
+  .gh-container{
+    width:95%;
+  }
+}
+@media screen and (max-width:864px){
+  .why-container h2{
+    padding-top:1.5rem;
+  }
+}
+@media screen and (max-width:800px){
+  .why-card{
+    width: 22rem;
+  }
+  .why-container{
+    margin-top:0rem;
+  }
+  .why-card div p{
+    font-size:small;
+  }
+  .chart{
+    width:17rem !important;
+    height:14rem !important
+  }
+}
+@media screen and (max-width:780px){
+  .why-container{
+    margin-top:-7rem;
+  }
+  .why-card{
+    margin-top:-1rem;
+  }
+}
+@media screen and (max-width:700px){
+  .why-card{
+    width:18rem;
+  }
+}
+@media screen and (max-width:620px){
+  .gh-container{
+    flex-direction: column;
+    margin:4rem auto!important;
+    width:70%;
+    margin:auto;
+    padding:2rem 2rem 0 !important;
+  }
+  .gh-2{
+    flex-direction: column-reverse;
+  }
+  .why-card{
+    width:22rem;
+    margin:2rem 0 0.5rem;
+  }
+  .chart{
+    width:19rem !important;
+    height:16rem !important
+  }
+  .gh-1 .why-card,.gh-2 .why-card,.gh-3 .why-card,.gh-4 .why-card{
+    box-shadow: 0px 0px 0px #FF803740;
+  }
+  .gh-1{
+    box-shadow: 0px 0px 8px #FF803740;
+    border-radius: 5px;
+    border: 1px solid #FF8037;
+  }
+  .gh-2{
+    box-shadow: 0px 0px 8px #5452C966;
+border: 1px solid #5452C9;
+border-radius: 10px;
+  }
+  .gh-3{
+    box-shadow: 0px 0px 8px #3BB8BB66;
+border: 1px solid #3BB8BB;
+border-radius: 10px;
+  }
+}
+@media screen and (max-width:600px){
+  .why-container h2{
+    padding-top:5rem;
+  }
+}
+@media screen and (max-width:560px){
+  .gh-container{
+    width:85%;
+  }
+  /* .why-container{
+    margin-top: -15rem;
+  } */
+}
+@media screen and (max-width:460px){
+  .why-card{
+    width:22rem;
+    margin-top:-0.5rem;
+  }
+  .why-container > p{
+    /* display:none; */
+    font-size:0.7rem;
+    margin:1rem auto 2rem;
+  }
+  .why-container h2{
+    font-size: x-large;
+  }
+  .why-card h3{
+    font-size:medium;
+  }
+  .why-card div p{
+    font-size:small;
+  }
+  .why-card{
+    min-height:13.5rem
+  }
+}
+@media screen and (max-width:460px){
+  .why-card{
+    width:19rem;
+    margin-top: 2rem;
+  }
+  .chart{
+    width:17rem !important;
+    height:16rem !important
+  }
+  .why-container{
+    margin-top:-30vh;
+  }
+  .gh-1{
+    margin-top:0.5rem !important;
+  }
+}
+@media screen and (max-width:390px){
+  .why-card{
+    width:17rem;
+  }
+}
